@@ -66,9 +66,10 @@
 }
 
  .linkedin1,.linkedin2,.linkedin3 {
-    color: #f00c0c;
-    width: 100%;
-    display: inline;
+    color: #ffffff;
+    font-size: 1.2em;
+    background-color: crimson;
+    margin-top: 4em; 
   }
   
 
