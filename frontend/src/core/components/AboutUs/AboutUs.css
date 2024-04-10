@@ -68,8 +68,8 @@
  .linkedin1,.linkedin2,.linkedin3 {
     color: #ffffff;
     font-size: 1.2em;
-    background-color: crimson;
-    margin-top: 4em; 
+    margin-top: 1em;
+    display: block;
   }
   
 
