@@ -65,12 +65,10 @@
     text-align: right;
 }
 
- .linkedin1 {
-    position: absolute;
-    bottom: 0;
+ .linkedin1,.linkedin2,.linkedin3 {
     color: #f00c0c;
-    visibility: visible;
-    text-decoration: none;
+    width: 100%;
+    display: inline;
   }
   
 

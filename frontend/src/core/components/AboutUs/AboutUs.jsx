@@ -29,8 +29,11 @@ export const AboutUs = () => {
               tecnología de inteligencia artificial y blockchain. Anteriormente
               ha desempeñado funciones tanto en el sector financiero, cómo de la
               administración pública.
+              <a
+                href="https://www.linkedin.com/in/patriciaacebestamargo/"
+                className="linkedin1"
+              ></a>
             </p>
-            <a href="https://www.linkedin.com/in/patriciaacebestamargo/" className="linkedin1"></a>
           </div>
         </div>
         <hr />
@@ -46,8 +49,11 @@ export const AboutUs = () => {
               de Youtube y una newsletter semanal, donde comparte noticias de
               Web3 y todo lo que va descubriendo en su día a día como creadora
               de contenido.{" "}
+              <a
+                href="https://www.linkedin.com/in/beatrizinfanzon/"
+                className="linkedin2" 
+              >linkedin</a>
             </p>
-            <a href="https://www.linkedin.com/in/beatrizinfanzon/"></a>
           </div>
           <div className="content">
             <img src="imagen2.jpg" alt="Imagen 2" className="round-image" />
@@ -75,7 +81,6 @@ export const AboutUs = () => {
               Bettermaps.AI, Pablo Viejo ha tenido una carrera destacada en el
               ámbito internacional, marcada por posiciones de liderazgo en
               diversas geografías, desde Singapur hasta España. Durante su
-
               estancia en Singapur, se desempeñó como Administrador General de
               EDF Lab Singapore y Jefe del Centro de Excelencia de Ciudades
               Sostenibles de EDF, donde lideró proyectos innovadores en
@@ -83,8 +88,11 @@ export const AboutUs = () => {
               formación académica sólida con un título en Arquitectura de la
               Universität Karlsruhe (TH) y programas especializados en Sistemas
               Complejos.
+              <a
+                href="https://www.linkedin.com/in/pablo-viejo/"
+                className="linkedin3"
+              ></a>
             </p>
-            <a href="https://www.linkedin.com/in/pablo-viejo/"></a>
           </div>
         </div>
       </div>
