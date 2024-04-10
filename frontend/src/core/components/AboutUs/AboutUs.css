@@ -1,0 +1,46 @@
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2em auto;
+    background-color: #66E8F2;
+    background-color: rgba(127, 255, 212, 0.7);
+}
+
+
+.section ,.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: bisque;
+}
+
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    background-color: red;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    width: 70%;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #ffffff;
+    margin: 5em 0;
+}
