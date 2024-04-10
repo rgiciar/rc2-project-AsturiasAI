@@ -9,13 +9,13 @@ export const AboutUs = () => {
           <h2>PATRICIA ACEBES TAMARGO</h2>
           <p>
             Fundadora responsable de AsturiasAi .Es economista cuantitativa, con
-            formación de postgrado inteligencia artificial, blockchain e 
+            formación de postgrado inteligencia artificial, blockchain e
             actualmente iniciándose en temas de computación cuántica y
             doctoranda en la universidad de Alcalá en temas de sostenibilidad
-            ambiental y criptomonedas, además de disponer de un  especial
+            ambiental y criptomonedas, además de disponer de un especial
             interés en el estudio del análisis de la microbiota
             intestinal(bacterias tenemos en el intestino) sobre la salud
-            utilizando la metodología de machine learning (data / ia).  Dispone
+            utilizando la metodología de machine learning (data / ia).Dispone
             de más de seis años en el mundo tecnológico. Tanto en consultoría
             tecnológica, startups, cómo durante los últimos años en un centro
             tecnológico. Sus funciones han ido ligadas tanto en lo que concierne
@@ -36,10 +36,10 @@ export const AboutUs = () => {
           <p>
             Divulgadora y redactora de contenidos tecnológicos. Se ha
             especializado en tecnologías emergentes como blockchain, Web3,
-            criptoeconomía, inteligencia artificial, IoT y Big Data.  Facilita
+            criptoeconomía, inteligencia artificial, IoT y Big Data.Facilita
             que los términos tecnológicos sean más fáciles de entender a través
             de contenidos, que crea para sus clientes y también para sus
-            seguidores.   Prueba de ello es Stories from the Web3, un canal de
+            seguidores. Prueba de ello es Stories from the Web3, un canal de
             Youtube y una newsletter semanal, donde comparte noticias de Web3 y
             todo lo que va descubriendo en su día a día como creadora de
             contenido.{" "}
