@@ -1,22 +1,26 @@
-.quienes-somos {
+
+.title {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .quienes-somos {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
     margin: 2em auto;
-    background-color: #66E8F2;
-    background-color: rgba(127, 255, 212, 0.7);
+    background-color: rgba(127, 200, 255, 0.7);
 }
 
 
-.section ,.section3 {
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 94%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    background-color: bisque;
+    margin-top: 4em;
 }
 
 
@@ -25,22 +29,59 @@
     justify-content: space-between;
     align-items: center;
     width: 94%;
-    background-color: red;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-bottom: 4em;
 }
 
 .round-image {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 12em;
+    height: 12em;
+    background-color: #10254C;
+    margin: 2em;
 }
 
-.info {
-    width: 70%;
+.info1 , .info3 {
+    width: 79%;
     text-align: center;
+    color: #ffffff;
+    font-size: 1.7em;
+    margin-right: 2em;
+    text-align: left;
 }
+
+.info2 {
+    width: 79%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.7em;
+    margin-left: 2em;
+    text-align: right;
+}
+
+ .linkedin1 {
+    position: absolute;
+    bottom: 0;
+    color: #f00c0c;
+    visibility: visible;
+    text-decoration: none;
+  }
+  
 
 hr {
-    width: 80%;
+    width: 90%;
     border: 1px solid #ffffff;
     margin: 5em 0;
+}
+
+h2 {
+    font-size: 2em;
+    width: 8em;
+    text-align: center;
 }
