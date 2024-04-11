@@ -1,5 +1,9 @@
 .form-contact {
     margin:3rem;
+   justify-content: center;
+   align-items: center;
+   
+
     
 }
 input {
@@ -8,7 +12,33 @@ input {
     height: 4rem;
     border-radius: 2rem;
     box-shadow: none;
+    border: none;
     outline: none;
+
+}
+.form-message {
+    margin: 1rem;
+    width: 40rem;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: none;
+    outline: none; 
+    border: none;
+}
+.contact-form-conteiner {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.send-contact {
+    background-color: rgb(16, 37, 76, 70%);
+    width: 10rem;
+    border-radius: 2rem;
+    box-shadow: none;
+    outline: none; 
+    border: none;
+    color: white;
+
 
 }
 
