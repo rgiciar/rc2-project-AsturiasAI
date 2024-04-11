@@ -1,14 +1,23 @@
-footer {
-  position: fixed;
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+.footer {
+  position: absolute;
   bottom: 0;
+  padding-bottom: 80px;
   width: 100%;
-  z-index: 1000;
-  padding: 20px;
+  padding: 10px;
   background-color: #10254c;
+}
+body.scrolled #footer {
+  visibility: visible;
 }
 .footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   font-size: 2rem;
 }
 .footer nav {
@@ -18,10 +27,13 @@ footer {
 }
 .footer ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .f5 {
-  margin-left: 0px;
+  display: flex;
+  justify-self: flex-end;
+
+  margin-left: 120rem;
 }
 .footer:hover {
   text-decoration: underline;
