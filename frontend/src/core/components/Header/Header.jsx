@@ -1,5 +1,5 @@
-import logo from "../../assets/images/spainAI-Asturias-logo-ok.jpg";
-import { Link } from "react-router-dom";
+import logo from "../../assets/images/logoHeader.png";
+// import { Link } from "react-router-dom";
 import "./Header.css";
 
 export const Header = () => {
