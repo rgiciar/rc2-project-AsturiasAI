@@ -1,0 +1,12 @@
+
+.conteiner-contact {
+background-color: rgb(102, 232, 242, 20%) ;
+width: 93rem;
+height: 58rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.texto-contact {
+    margin:3rem;
+}

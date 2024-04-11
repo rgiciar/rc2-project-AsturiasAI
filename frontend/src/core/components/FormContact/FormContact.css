@@ -1,0 +1,14 @@
+.form-contact {
+    margin:3rem;
+    
+}
+input {
+    margin: 1rem;
+    width: 40rem;
+    height: 4rem;
+    border-radius: 2rem;
+    box-shadow: none;
+    outline: none;
+
+}
+
