@@ -8,7 +8,7 @@ export const AboutUs = () => {
         <div className="section">
           <div className="content">
             <img src="imagen1.jpg" alt="Imagen 1" className="round-image" />
-            <h2>PATRICIA ACEBES TAMARGO</h2>
+            <h2 className="names">PATRICIA ACEBES TAMARGO</h2>
           </div>
           <div className="info1">
             <p>
@@ -61,14 +61,14 @@ export const AboutUs = () => {
           </div>
           <div className="content">
             <img src="imagen2.jpg" alt="Imagen 2" className="round-image" />
-            <h2>BEATRIZ INFANZÓN</h2>
+            <h2 className="names">BEATRIZ INFANZÓN</h2>
           </div>
         </div>
         <hr />
         <div className="section3">
           <div className="content">
             <img src="imagen3.jpg" alt="Imagen 3" className="round-image" />
-            <h2>PABLO VIEJO</h2>
+            <h2 className="names">PABLO VIEJO</h2>
           </div>
           <div className="info3">
             <p>
