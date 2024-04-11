@@ -1,16 +1,14 @@
 .sectionMap {
+    position: relative;
     width: 100vw;
-    height: 70vh
+    height: 60vh;
 }
 
 .redMap {
-    width: 100vw;
-}
-
-.redMap img{
     width: 100%;
-    height: auto;
-    z-index: 0;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 .redIcon {
@@ -29,50 +27,54 @@
     transform: scale(1.4);
 }
 
+
+
+/* Ubiación de los iconos */
+
 #eventbrite {
     position: absolute;
-    top: 65vh;
-    left: 30vw;
+    top: 60%;
+    left: 28%;
 }
 
 #github {
     position: absolute;
-    top: 42vh;
-    left: 22vw;
-}
-
-#facebook {
-    position: absolute;
-    top: 38vh;
-    left: 49vw;
+    top: 25%;
+    left: 22%;
 }
 
 #linkedin {
     position: absolute;
-    top:45vh;
-    left: 35vw;
+    top:35%;
+    left: 35%;
 }
 
 #spotify {
     position: absolute;
-    top:57vh;
-    left: 43vw;
+    top:55%;
+    left: 43%;
+}
+
+#facebook {
+    position: absolute;
+    top: 20%;
+    left: 49%;
 }
 
 #xTwitter {
     position: absolute;
-    top: 60vh;
-    left: 56vw;
+    top: 50%;
+    left: 56%;
 }
 
 #youtube {
     position: absolute;
-    top: 46vh;
-    left: 64vw;
+    top: 32%;
+    left: 64%;
 }
 
 #twitch {
     position: absolute;
-    top: 50vh;
-    left: 76vw;
+    top: 40%;
+    left: 76%;
 }

@@ -15,18 +15,32 @@ import icon_youtube from "../../assets/images/redes_icon/icon_youtube.svg";
 export const RedMap = () => {
   return (
     <section className="sectionMap">
-        <div className="redMap">
-            <img src={mapaAsturias} alt="" />
-        </div>
+        <img className="redMap" src={mapaAsturias} alt="" />
         <div>
-            <a href="" className="redIcon"> <img src={icon_eventbrite} id="eventbrite" alt="icono evenbrite" /> </a>
-            <a href="" className="redIcon"> <img src={icon_facebook} id="facebook" alt="icono facebook" /> </a>
-            <a href="" className="redIcon"> <img src={icon_github} id="github" alt="icono github" /> </a>
-            <a href="" className="redIcon"> <img src={icon_linkedin} id="linkedin" alt="icono linkedin" /> </a>
-            <a href="" className="redIcon"> <img src={icon_spotify} id="spotify" alt="icono spotify" /> </a>
-            <a href="" className="redIcon"> <img src={icon_twitch} id="twitch" alt="icono twitch" /> </a>
-            <a href="" className="redIcon"> <img src={icon_x} id="xTwitter" alt="icono x" /> </a>
-            <a href="" className="redIcon"> <img src={icon_youtube} id="youtube" alt="icono youtube" /> </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_eventbrite} id="eventbrite" alt="icono evenbrite" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_facebook} id="facebook" alt="icono facebook" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_github} id="github" alt="icono github" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_linkedin} id="linkedin" alt="icono linkedin" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_spotify} id="spotify" alt="icono spotify" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_twitch} id="twitch" alt="icono twitch" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_x} id="xTwitter" alt="icono x" /> 
+            </a>
+            <a href="" className="redIcon"> 
+                <img src={icon_youtube} id="youtube" alt="icono youtube" /> 
+            </a>
         </div>
     </section>
   )
