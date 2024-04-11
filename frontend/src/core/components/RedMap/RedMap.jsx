@@ -14,7 +14,7 @@ import icon_youtube from "../../assets/images/redes_icon/icon_youtube.svg";
 
 export const RedMap = () => {
   return (
-    <>
+    <section className="sectionMap">
         <div className="redMap">
             <img src={mapaAsturias} alt="" />
         </div>
@@ -28,6 +28,6 @@ export const RedMap = () => {
             <a href="" className="redIcon"> <img src={icon_x} id="xTwitter" alt="icono x" /> </a>
             <a href="" className="redIcon"> <img src={icon_youtube} id="youtube" alt="icono youtube" /> </a>
         </div>
-    </>
+    </section>
   )
 }

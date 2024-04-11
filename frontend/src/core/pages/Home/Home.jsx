@@ -1,14 +1,12 @@
-import { Header } from "../../components/Header/Header";
 import { RedMap } from "../../components/RedMap/RedMap";
-import { Footer } from "../../components/Footer/Footer";
+import { AboutUs } from "../../components/AboutUs/AboutUs";
 
 
 export const Home = () => {
   return (
     <main className="home">
-      <Header />
       <RedMap />
-      <Footer />
+      <AboutUs />
     </main>
   )
 }
