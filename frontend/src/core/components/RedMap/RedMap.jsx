@@ -19,14 +19,14 @@ export const RedMap = () => {
             <img src={mapaAsturias} alt="" />
         </div>
         <div>
-            <button className="redIcon"> <img src={icon_eventbrite} id="eventbrite" alt="icono evenbrite" /> </button>
-            <button className="redIcon"> <img src={icon_facebook} id="facebook" alt="icono facebook" /> </button>
-            <button className="redIcon"> <img src={icon_github} id="github" alt="icono github" /> </button>
-            <button className="redIcon"> <img src={icon_linkedin} id="linkedin" alt="icono linkedin" /> </button>
-            <button className="redIcon"> <img src={icon_spotify} id="spotify" alt="icono spotify" /> </button>
-            <button className="redIcon"> <img src={icon_twitch} id="twitch" alt="icono twitch" /> </button>
-            <button className="redIcon"> <img src={icon_x} id="xTwitter" alt="icono x" /> </button>
-            <button className="redIcon"> <img src={icon_youtube} id="youtube" alt="icono youtube" /> </button>
+            <a href="" className="redIcon"> <img src={icon_eventbrite} id="eventbrite" alt="icono evenbrite" /> </a>
+            <a href="" className="redIcon"> <img src={icon_facebook} id="facebook" alt="icono facebook" /> </a>
+            <a href="" className="redIcon"> <img src={icon_github} id="github" alt="icono github" /> </a>
+            <a href="" className="redIcon"> <img src={icon_linkedin} id="linkedin" alt="icono linkedin" /> </a>
+            <a href="" className="redIcon"> <img src={icon_spotify} id="spotify" alt="icono spotify" /> </a>
+            <a href="" className="redIcon"> <img src={icon_twitch} id="twitch" alt="icono twitch" /> </a>
+            <a href="" className="redIcon"> <img src={icon_x} id="xTwitter" alt="icono x" /> </a>
+            <a href="" className="redIcon"> <img src={icon_youtube} id="youtube" alt="icono youtube" /> </a>
         </div>
     </>
   )
