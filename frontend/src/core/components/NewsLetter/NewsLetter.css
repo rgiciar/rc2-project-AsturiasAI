@@ -1,0 +1,11 @@
+.newsLetter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4vh;
+    flex-direction: column;
+}
+
+.tittle-newsletter{
+    color: black;
+    text-align: center;
+}
