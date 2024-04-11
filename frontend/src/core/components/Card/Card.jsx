@@ -1,15 +1,16 @@
 import "./Card.css";
 
-import imagenRobot from './img/robot.jpg';
+import imagenKitchen from './img/kitchen.jpg';
 
 
 export const Card = () => {
   return (
     <div className="card">
-      <h2 className="titulo">Título de entrada</h2>
-      <p className="fecha">20/03/2024</p>
-      <img className="imagen" src={imagenRobot} alt="Ïmagen de entrada" />
-      <p className="descripcion">Hola hola esto es una descripción del blog</p>
+      <img className="imagen" src={imagenKitchen} alt="Ïmagen de entrada" />
+      <p className="fecha">2 de marzo de 2024</p>
+      <h2 className="titulo">IA HASTA EN LA SOPA</h2>
+      <p className="descripcion">La IA está revolucionando la cocina. Un robot chef prepara deliciosas recetas con solo tocar un botón. puede cocinar de forma independiente, sin necesidad de intervención humana.
+ </p>
       <a className="link" href="">
         Leer más
       </a>

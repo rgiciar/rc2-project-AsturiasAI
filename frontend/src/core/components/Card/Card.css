@@ -1,11 +1,12 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 350px;
     margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #201717;
+    background-color: #a9a9a9;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
   }
   
   .card img {
@@ -14,23 +15,25 @@
     object-fit: cover;
   }
   
-  .card .contenido {
-    padding: 10px;
-  }
-  
-  .card .fecha {
-    font-size: 12px;
-    color: #999;
-    margin-bottom: 5px;
-  }
-  
-  .card h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .card p {
-    font-size: 14px;
+    .card p {
+    font-size: 15px;
     line-height: 1.5;
+    color:#252424;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   
   }
-  
+
+  .card .fecha {
+    font-size: 15px;
+    color: #252424;
+    
+  }
+  .card h2 {
+    font-size: 20px;
+    color: #252424;
+    text-align: justify;
+    
+  }
