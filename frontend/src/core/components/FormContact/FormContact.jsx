@@ -16,7 +16,7 @@ export const FormContact = () => {
   return (
     <section className="contact-form-conteiner">
       <form className="form-contact" onSubmit={handleSubmit(onSubmit) }>
-        <div className="nome-conteiner">
+        <div className="name-conteiner">
           {/* nombre */}
           <input
             className="form-name"
@@ -25,7 +25,7 @@ export const FormContact = () => {
               required: true,
             })}
           />
-          {errors.Name && <span>Titulo requerido</span>}
+          {errors.Name && <span>*</span>}
         </div>
         <div className="email-conteiner">
           <input
@@ -35,7 +35,7 @@ export const FormContact = () => {
               required: true,
             })}
           />
-          {errors.Email && <span>Email requerido</span>}
+          {errors.Email && <span>*</span>}
         </div>
         <div className="affair-conteiner">
           <input
@@ -47,8 +47,8 @@ export const FormContact = () => {
         <div className="message-conteiner">
           <textarea className="form-message" {...register("message")} />
         </div>
-        <button type="submit" className="save-contact">
-          Guardar
+        <button type="submit" className="send-contact">
+          ENVIAR
         </button>
       </form>
     </section>
