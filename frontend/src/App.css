@@ -4,7 +4,7 @@
   margin: 0;
   text-decoration: none;
   outline: none;
-  font-family: Montserrat, Helvetica, sans-serif;
+  font-family: var(--myFont);
   /*outline: red solid 1px;*/
   overflow-x: hidden;
 }
@@ -22,12 +22,16 @@ html {
 body {
   background-image: url('./core/assets/images/background_AsturiasAI.png'); 
   background-size: cover;
+
 }
 
 :root {
   --black: #000;
   --white: #fff;
-  --myFont: Helvetica, Arial, sans-serif;
-  /*De esta forma creas variables y luego en css para llamar al color
-    sin necesidad de poner el codigo pones: var(--white)*/
+  --myFont: Montserrat-Regular, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: local('Montserrat-Regular'), url('./core/assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
