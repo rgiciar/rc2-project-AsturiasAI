@@ -16,12 +16,11 @@ export const WhatDoWeDo = () => {
             <li>
               Divulgar la IA a través de webinars y podcasts en relación a los
               temas candentes, realizados si o ser posible por especialistas
-              asturianxs.
+              asturianos.
             </li>
             <li>Identificar temas y personas que podrían explicarlos.</li>
             <li>
-              Identificar el formato que más consume nuestra población
-              objetivo.
+              Identificar el formato que más consume nuestra población objetivo.
             </li>
           </ul>
         </div>
@@ -36,8 +35,8 @@ export const WhatDoWeDo = () => {
               necesiten en su día a día.
             </li>
             <li>
-              Identificar el primer sector con el que vamos a trabajar en base
-              a su potencial interés, impacto de la IA en su día a día y el
+              Identificar el primer sector con el que vamos a trabajar en base a
+              su potencial interés, impacto de la IA en su día a día y el
               posible rendimiento que la asociación podría tener (tanto
               económico como de relevancia).
             </li>
