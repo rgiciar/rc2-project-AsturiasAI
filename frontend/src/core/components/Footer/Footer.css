@@ -11,29 +11,27 @@ body {
   width: 100%;
   padding: 10px;
   background-color: #10254c;
-}
-body.scrolled #footer {
-  visibility: visible;
-}
-.footer ul {
-  display: flex;
-  justify-content: start;
-  font-size: 2rem;
-}
-.footer nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.footer ul li {
-  display: inline;
-  margin-right: 10px;
+body.scrolled #footer {
+  visibility: visible;
 }
+.list-footer {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  font-size: 2rem;
+  margin: 0;
+  text-decoration-color: #66e8f2;
+}
+
 .f5 {
   display: flex;
   justify-self: flex-end;
-
-  margin-left: 120rem;
+  color: #66e8f2;
+  font-size: 2rem;
 }
 .footer:hover {
   text-decoration: underline;

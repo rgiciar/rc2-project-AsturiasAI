@@ -4,7 +4,7 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <header>
+    <header className="header-container">
       <div>
         <img src={logo} alt="" />
       </div>

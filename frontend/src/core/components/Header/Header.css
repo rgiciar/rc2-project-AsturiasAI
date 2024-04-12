@@ -1,4 +1,4 @@
-header {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,30 +6,30 @@ header {
   background-color: #10254c;
 }
 
-header img {
+.header-container img {
   display: flex;
   width: 10rem;
   height: 10rem;
 }
-.header nav ul {
+.header-container nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.header nav ul li {
+.header-container li {
   display: inline;
   margin-right: 20px;
 }
 
-.header nav ul li:last-child {
+.header-container nav ul li:last-child {
   margin-right: 0;
 }
-.header nav ul li a {
+.header-container nav a {
   color: #66e8f2;
   text-decoration: none;
   font-size: 2rem;
   margin-right: 10px;
 }
-.header nav ul li a :hover {
+.header-container nav ul li a :hover {
   text-decoration: underline;
 }

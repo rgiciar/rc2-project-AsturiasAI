@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer>
       <nav className="footer">
-        <ul>
+        <ul className="list-footer">
           <li>
             <a href="#">Politica de cookies</a>
           </li>
@@ -14,7 +14,9 @@ export const Footer = () => {
           <li>
             <a href="#">Aviso legal</a>
           </li>
-          <li className="f5">
+        </ul>
+        <ul className="f5">
+          <li>
             <a href="">2024 Factoria F5</a>
           </li>
         </ul>
