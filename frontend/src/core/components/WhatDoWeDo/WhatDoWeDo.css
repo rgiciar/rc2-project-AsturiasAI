@@ -28,6 +28,13 @@
     margin-left: 3em;
     font-size: 2em;
     color: white;
+    text-align: justify;
+    margin-right: 3em;
+}
+
+.contenido li {
+    margin-bottom: 0.5em;
+    list-style: circle;
 }
 
 .container-whatdowedo h3 {
