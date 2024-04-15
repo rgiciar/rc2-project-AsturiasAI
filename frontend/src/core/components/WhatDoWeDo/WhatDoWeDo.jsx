@@ -7,7 +7,7 @@ export const WhatDoWeDo = () => {
 
       <div className="contenido">
         <div className="seccion1">
-          <h2>
+          <h2 className="titulo-seccion1">
             Democratizar la IA en todos los estamentos de la sociedad asturiana
             de diversas formas:
           </h2>

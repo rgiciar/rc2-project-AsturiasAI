@@ -111,3 +111,79 @@ hr {
     color: #ffffff;
     margin-top: 2em;
 }
+
+@media (max-width: 768px) {
+
+    .quienes-somos {
+        width: 90%;
+    }
+
+    .section,
+    .section3 {
+        flex-direction: column;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+
+    .content {
+
+        margin-bottom: 1em;
+    }
+
+    .name1,
+    .name3 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .name2 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+
+    }
+
+    .round-image1,
+    .round-image3 {
+        max-width: 90%;
+    }
+
+    .round-image2 {
+        max-width: 90%;
+    }
+
+    .info1,
+    .info3 {
+        margin-top: 1em;
+        width: 80%;
+        padding-left: 3em;
+    }
+
+    .info2 {
+        margin-top: 1em;
+        width: 80%;
+        padding-right: 3em;
+    }
+
+    .linkedin1,
+    .linkedin3 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+    }
+
+    .linkedin2 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+    }
+ }
