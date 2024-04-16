@@ -1,8 +1,9 @@
 .title {
     text-align: center;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: white;
+    font-size: 4em;
   }
 
 .contenido {
@@ -12,6 +13,10 @@
     margin: 2em auto;
     background-color: rgba(127, 200, 255, 0.3);
     padding-bottom: 4em;
+}
+
+.container-whatdowedo {
+    margin-top: 15em;
 }
 
 .container-whatdowedo h2 {
@@ -28,6 +33,13 @@
     margin-left: 3em;
     font-size: 2em;
     color: white;
+    text-align: justify;
+    margin-right: 3em;
+}
+
+.contenido li {
+    margin-bottom: 0.5em;
+    list-style: circle;
 }
 
 .container-whatdowedo h3 {

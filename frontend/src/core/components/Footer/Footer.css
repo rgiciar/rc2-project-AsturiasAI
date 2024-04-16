@@ -7,34 +7,48 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
   width: 100%;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #10254c;
+  list-style-type: none;
 }
 body.scrolled #footer {
   visibility: visible;
 }
-.footer ul {
-  display: flex;
-  justify-content: start;
-  font-size: 2rem;
-}
-.footer nav {
+.list-footer {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
-.footer ul li {
-  display: inline;
-  margin-right: 10px;
+.list-footer a {
+  color: #66e8f2;
+  font-size: 2rem;
 }
+
+.list-footer li {
+  padding: 0 20px;
+}
+.f5 a {
+  color: #66e8f2;
+  font-size: 2rem;
+}
+
 .f5 {
+  text-decoration: none;
   display: flex;
   justify-self: flex-end;
-
-  margin-left: 120rem;
+  flex-direction: flex-end;
+  margin-left: auto;
+  margin-right: 30px;
 }
-.footer:hover {
+.list-footer a:hover,
+.f5 a:hover {
   text-decoration: underline;
 }
