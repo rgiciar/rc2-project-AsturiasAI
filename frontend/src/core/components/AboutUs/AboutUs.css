@@ -38,25 +38,43 @@
     margin-bottom: 4em;
 }
 
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-bottom: 4em;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-bottom: 4em;
+}
+
+
 .round-image1,
-.round-image3 {
+.round-image3,
+.round-image5 {
     border-radius: 50%;
     width: 12em;
     height: 12em;
-    background-color: #10254C;
     margin: 2em 2em 0 2em;
 }
 
-.round-image2 {
+.round-image2,
+.round-image4 {
     border-radius: 50%;
     width: 12em;
     height: 12em;
-    background-color: #10254C;
     margin: 2em 2em 0 2em;
 }
 
 .info1,
-.info3 {
+.info3,
+.info5 {
     width: 79%;
     text-align: center;
     color: #ffffff;
@@ -65,7 +83,8 @@
     text-align: justify;
 }
 
-.info2 {
+.info2,
+.info4 {
     width: 79%;
     text-align: center;
     color: #ffffff;
@@ -76,7 +95,9 @@
 
 .linkedin1,
 .linkedin2,
-.linkedin3 {
+.linkedin3,
+.linkedin4,
+.linkedin5 {
     color: #ffffff;
     font-size: 1.2em;
     margin-top: 1em;
@@ -100,13 +121,15 @@ hr {
 
 
 .name1,
-.name3 {
+.name3,
+.name5 {
     font-size: 1.8em;
     color: #ffffff;
     margin-top: 2em;
 }
 
-.name2 {
+.name2,
+.name4 {
     font-size: 1.8em;
     color: #ffffff;
     margin-top: 2em;
@@ -119,13 +142,15 @@ hr {
     }
 
     .section,
-    .section3 {
+    .section3,
+    .section5 {
         flex-direction: column;
         margin-right: 2em;
         margin-left: 2em;
     }
 
-    .section2 {
+    .section2,
+    .section4 {
         flex-direction: column-reverse;
         margin-right: 2em;
         margin-left: 2em;
@@ -136,13 +161,15 @@ hr {
     }
 
     .name1,
-    .name3 {
+    .name3,
+    .name5 {
         margin-top: 1.5em;
         margin-bottom: 0.5em;
         font-size: 1.4em;
     }
 
-    .name2 {
+    .name2,
+    .name4 {
         margin-top: 1.5em;
         margin-bottom: 0.5em;
         font-size: 1.4em;
@@ -151,14 +178,16 @@ hr {
 
 
     .info1,
-    .info3 {
+    .info3,
+    .info5 {
         margin-top: 1em;
         width: 80%;
         padding-left: 3em;
         font-size: 1.3em;
     }
 
-    .info2 {
+    .info2,
+    .info4 {
         margin-top: 1em;
         width: 80%;
         padding-right: 3em;
@@ -166,7 +195,8 @@ hr {
     }
 
     .linkedin1,
-    .linkedin3 {
+    .linkedin3,
+    .linkedin5 {
         margin-top: 0.5em;
         width: 79%;
         word-break: break-all;
@@ -175,7 +205,8 @@ hr {
         font-size: 1em;
     }
 
-    .linkedin2 {
+    .linkedin2,
+    .linkedin4 {
         margin-top: 0.5em;
         width: 79%;
         word-break: break-all;
@@ -183,4 +214,4 @@ hr {
         margin-bottom: 1em;
         font-size: 1em;
     }
- }
+}

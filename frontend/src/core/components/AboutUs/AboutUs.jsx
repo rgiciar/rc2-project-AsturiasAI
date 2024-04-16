@@ -3,11 +3,13 @@ import "../AboutUs/AboutUs.css";
 export const AboutUs = () => {
   return (
     <div>
-      <h1 className="title" id="seccion-about">QUIENES SOMOS</h1>
+      <h1 className="title" id="seccion-about">
+        QUIENES SOMOS
+      </h1>
       <div className="quienes-somos">
         <div className="section">
           <div className="content">
-            <img src="imagen1.jpg" alt="Imagen 1" className="round-image1" />
+            <img src="../../assets/images/patricia.jpg" alt="Imagen 1" className="round-image1" />
             <h2 className="name1">PATRICIA ACEBES TAMARGO</h2>
           </div>
           <div className="info1">
@@ -31,7 +33,9 @@ export const AboutUs = () => {
               administración pública.
             </p>
             <a
-              href="https://www.linkedin.com/in/patriciaacebestamargo/" target="_blank" rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/patriciaacebestamargo/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="linkedin1"
             >
               Más sobre mí: https://www.linkedin.com/in/patriciaacebestamargo/
@@ -53,21 +57,23 @@ export const AboutUs = () => {
               de contenido.{" "}
             </p>
             <a
-              href="https://www.linkedin.com/in/beatrizinfanzon/" target="_blank" rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/beatrizinfanzon/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="linkedin2"
             >
               Más sobre mí: https://www.linkedin.com/in/beatrizinfanzon/
             </a>
           </div>
           <div className="content">
-            <img src="imagen2.jpg" alt="Imagen 2" className="round-image2" />
+            <img src="../../assets/images/Beatriz_Infanzón.png" alt="Imagen 2" className="round-image2" />
             <h2 className="name2">BEATRIZ INFANZÓN</h2>
           </div>
         </div>
         <hr />
         <div className="section3">
           <div className="content">
-            <img src="imagen3.jpg" alt="Imagen 3" className="round-image3" />
+            <img src="../../assets/images/pablo_viejo.jpg" alt="Imagen 3" className="round-image3" />
             <h2 className="name3">PABLO VIEJO</h2>
           </div>
           <div className="info3">
@@ -94,8 +100,67 @@ export const AboutUs = () => {
               Complejos.
             </p>
             <a
-              href="https://www.linkedin.com/in/pablo-viejo/" target="_blank" rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/pablo-viejo/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="linkedin3"
+            >
+              Más sobre mí: https://www.linkedin.com/in/pablo-viejo/
+            </a>
+          </div>
+        </div>
+        <hr />
+        <div className="section4">
+          <div className="info4">
+            <p>
+              Se formó como físico en la Universidad Complutense de Madrid. A lo
+              largo de su carrera ha ido pasando por posiciones muy diversas, ha
+              sido investigador en física médica, devops y automatizador de
+              procesos o ha desarrollado entornos de monitorización y analítica
+              avanzada. Todo ello siempre con una perspectiva de orientación al
+              dato y una inquietud por la integración de técnicas de
+              inteligencia artificial en la automatización y mejora de los
+              procesos. Su carrera ha evolucionado desde las posiciones
+              puramente técnicas como desarrollador Python, ingeniero de datos y
+              científico de datos hacia una orientación a negocio cada vez mayor
+              pasando por posiciones como arquitecto de soluciones en preventa
+              hasta su rol actual de venta consultiva en estrategia de datos e
+              Inteligencia Artificial.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/beatrizinfanzon/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin4"
+            >
+              Más sobre mí: https://www.linkedin.com/in/pablomgc/
+            </a>
+          </div>
+          <div className="content">
+            <img src="../../assets/images/Pablo_Manuel.jpg" alt="Imagen 4" className="round-image4" />
+            <h2 className="name4">PABLO MANUEL GARCIA CORZO</h2>
+          </div>
+        </div>
+        <hr />
+        <div className="section5">
+          <div className="content">
+            <img src="../../assets/images/Andres_Abad.png" alt="Imagen 5" className="round-image5" />
+            <h2 className="name5">ADRES ABAD RODRIGUEZ</h2>
+          </div>
+          <div className="info5">
+            <p>
+              Ingeniero informático que ha desarrollado la mayor parte de su
+              carrera liderando proyectos y servicios de varias áreas en
+              organismos internacionales como el CERN, OMS, OMPI y UNICC. Tras
+              un breve paso por la Wella Company, compagina la enseñanza de la
+              disciplina de transformación digital para los MBA de la IFM
+              Business School con su trabajo en
+            </p>
+            <a
+              href="https://www.linkedin.com/in/pablo-viejo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin5"
             >
               Más sobre mí: https://www.linkedin.com/in/pablo-viejo/
             </a>
