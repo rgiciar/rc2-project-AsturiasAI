@@ -13,8 +13,10 @@ export const Header = () => {
           <li>
             <Link smooth to="/#seccion-about">Quienes somos</Link> 
           </li>
+          <li>
             <Link smooth to="/#seccion-what">Que hacemos
           </Link>
+          </li>
           <li>
             <Link smooth to="/blog">Blog</Link>
           </li>
