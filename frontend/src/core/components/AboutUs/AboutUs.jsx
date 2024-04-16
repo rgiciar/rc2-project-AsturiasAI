@@ -3,7 +3,7 @@ import "../AboutUs/AboutUs.css";
 export const AboutUs = () => {
   return (
     <div>
-      <h1 className="title">QUIENES SOMOS</h1>
+      <h1 className="title" id="seccion-about">QUIENES SOMOS</h1>
       <div className="quienes-somos">
         <div className="section">
           <div className="content">
@@ -31,7 +31,7 @@ export const AboutUs = () => {
               administración pública.
             </p>
             <a
-              href="https://www.linkedin.com/in/patriciaacebestamargo/"
+              href="https://www.linkedin.com/in/patriciaacebestamargo/" target="_blank" rel="noopener noreferrer"
               className="linkedin1"
             >
               ¿Quieres saber más?.https://www.linkedin.com/in/patriciaacebestamargo/
@@ -53,7 +53,7 @@ export const AboutUs = () => {
               de contenido.{" "}
             </p>
             <a
-              href="https://www.linkedin.com/in/beatrizinfanzon/"
+              href="https://www.linkedin.com/in/beatrizinfanzon/" target="_blank" rel="noopener noreferrer"
               className="linkedin2"
             >
               Síguela en LinkedIn:https://www.linkedin.com/in/beatrizinfanzon/
@@ -94,7 +94,7 @@ export const AboutUs = () => {
               Complejos.
             </p>
             <a
-              href="https://www.linkedin.com/in/pablo-viejo/"
+              href="https://www.linkedin.com/in/pablo-viejo/" target="_blank" rel="noopener noreferrer"
               className="linkedin3"
             >
               Su perfil profesional de LinkedIn:https://www.linkedin.com/in/pablo-viejo/

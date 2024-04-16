@@ -14,3 +14,4 @@ https://github.com/rgiciar/rc2-project-AsturiasAI
 
 ### Comando para formulario de contacto 
 npm install react-hook-form
+npm install react-router-hash-link

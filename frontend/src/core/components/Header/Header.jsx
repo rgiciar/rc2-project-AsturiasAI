@@ -1,26 +1,25 @@
 import logo from "../../assets/images/logoHeader.png";
-// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link"; // 
 import "./Header.css";
 
 export const Header = () => {
   return (
     <header>
       <div>
-        <img src={logo} alt="" />
+      <Link to="/"><img src={logo} alt="" /></Link>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#">Quienes somos</a>
+            <Link smooth to="/#seccion-about">Quienes somos</Link> 
+          </li>
+            <Link smooth to="/#seccion-what">Que hacemos
+          </Link>
+          <li>
+            <Link smooth to="/blog">Blog</Link>
           </li>
           <li>
-            <a href="#">Que hacemos</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
+            <Link smooth to="/contact">Contacto</Link>
           </li>
         </ul>
       </nav>

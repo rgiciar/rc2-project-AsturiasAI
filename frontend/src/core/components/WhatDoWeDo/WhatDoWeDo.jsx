@@ -2,7 +2,7 @@ import "../WhatDoWeDo/WhatDoWeDo.css";
 
 export const WhatDoWeDo = () => {
   return (
-    <div className="container-whatdowedo">
+    <div className="container-whatdowedo" id="seccion-what">
       <h1 className="title">QUE HACEMOS</h1>
 
       <div className="contenido">
