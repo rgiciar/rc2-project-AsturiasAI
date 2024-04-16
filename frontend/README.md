@@ -9,6 +9,9 @@ https://app.mural.co/t/personal2568/m/personal2568/1712048938425/259aafd438798d4
 ## Enlace a GitHub
 https://github.com/rgiciar/rc2-project-AsturiasAI
 
+## Enlace a google docs
+https://docs.google.com/document/d/1Fl-JDAdpieLob-o975X0EfhqXAjKnqzaT3Ag54uWGn8/edit?usp=sharing
+
 
 ## Comandos necesarios:
 
