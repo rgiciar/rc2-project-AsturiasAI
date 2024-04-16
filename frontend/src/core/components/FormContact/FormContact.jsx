@@ -39,7 +39,7 @@ export const FormContact = () => {
           />
           {errors.Email && <span>*</span>}
         </div>
-        <div className="affair-conteiner">
+        <div className="affair-container">
           <input
             className="form-affair"
             placeholder="ASUNTO"
@@ -47,7 +47,7 @@ export const FormContact = () => {
             {...register("Asunto")}
           />
         </div>
-        <div className="message-conteiner">
+        <div className="message-container">
           <textarea placeholder="MENSAJE" className="form-message" {...register("message")} />
         </div>
         <button type="submit" className="send-contact">
