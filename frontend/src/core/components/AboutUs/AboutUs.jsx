@@ -34,7 +34,7 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/patriciaacebestamargo/" target="_blank" rel="noopener noreferrer"
               className="linkedin1"
             >
-              ¿Quieres saber más?.https://www.linkedin.com/in/patriciaacebestamargo/
+              Más sobre mí: https://www.linkedin.com/in/patriciaacebestamargo/
             </a>
           </div>
         </div>
@@ -56,7 +56,7 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/beatrizinfanzon/" target="_blank" rel="noopener noreferrer"
               className="linkedin2"
             >
-              Síguela en LinkedIn:https://www.linkedin.com/in/beatrizinfanzon/
+              Más sobre mí: https://www.linkedin.com/in/beatrizinfanzon/
             </a>
           </div>
           <div className="content">
@@ -97,7 +97,7 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/pablo-viejo/" target="_blank" rel="noopener noreferrer"
               className="linkedin3"
             >
-              Su perfil profesional de LinkedIn:https://www.linkedin.com/in/pablo-viejo/
+              Más sobre mí: https://www.linkedin.com/in/pablo-viejo/
             </a>
           </div>
         </div>

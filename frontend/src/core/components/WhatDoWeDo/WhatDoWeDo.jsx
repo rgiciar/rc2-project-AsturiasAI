@@ -7,10 +7,10 @@ export const WhatDoWeDo = () => {
 
       <div className="contenido">
         <div className="seccion1">
-          <h2 className="titulo-seccion1">
+          <h3 className="titulo-seccion1">
             Democratizar la IA en todos los estamentos de la sociedad asturiana
-            de diversas formas:
-          </h2>
+            de diversas formas
+          </h3>
 
           <ul>
             <li>
@@ -26,7 +26,7 @@ export const WhatDoWeDo = () => {
         </div>
 
         <div className="seccion2">
-          <h3>Formaciones personalizadas:</h3>
+          <h3 className="titulo-seccion2">Formaciones personalizadas</h3>
 
           <ul>
             <li>
@@ -52,7 +52,7 @@ export const WhatDoWeDo = () => {
         </div>
 
         <div className="seccion3">
-          <h3>Para estudiantes:</h3>
+          <h3 className="titulo-seccion3">Para estudiantes</h3>
 
           <ul>
             <li>

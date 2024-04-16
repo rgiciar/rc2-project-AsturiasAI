@@ -13,7 +13,6 @@
     margin: 3em auto;
     background-color: rgba(127, 200, 255, 0.3);
     padding-bottom: 4em;
-    background-color: brown;
 }
 
 .container-whatdowedo {
@@ -51,13 +50,29 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .titulo-seccion1 {
-        width: 9em;
-        word-break: break-all;
-        hyphens: auto;
+    .title {
+        font-size: 2em;
     }
 
-    .contenido {
-        width: 95%;
+
+    .container-whatdowedo h3 {
+        font-size: 1.6em;
+        text-decoration: underline;
+        text-align: center;
+        margin-right: 3em;
+    }
+
+
+    .container-whatdowedo {
+        margin-top: 1em;
+        margin-left: -1.8em;
+        margin-right: -1.8em;
+    }
+
+    .container-whatdowedo ul {
+        font-size: 1.3em;
+        text-align: justify;
+        letter-spacing: normal;
+        text-justify: inter-word;
     }
 }

@@ -121,53 +121,48 @@ hr {
     .section,
     .section3 {
         flex-direction: column;
-        margin-right: 5em;
-        margin-left: 5em;
+        margin-right: 2em;
+        margin-left: 2em;
     }
 
     .section2 {
         flex-direction: column-reverse;
-        margin-right: 5em;
-        margin-left: 5em;
+        margin-right: 2em;
+        margin-left: 2em;
     }
 
     .content {
-
         margin-bottom: 1em;
     }
 
     .name1,
     .name3 {
-        margin-top: 0.5em;
+        margin-top: 1.5em;
         margin-bottom: 0.5em;
+        font-size: 1.4em;
     }
 
     .name2 {
-        margin-top: 0.5em;
+        margin-top: 1.5em;
         margin-bottom: 0.5em;
+        font-size: 1.4em;
 
     }
 
-    .round-image1,
-    .round-image3 {
-        max-width: 90%;
-    }
-
-    .round-image2 {
-        max-width: 90%;
-    }
 
     .info1,
     .info3 {
         margin-top: 1em;
         width: 80%;
         padding-left: 3em;
+        font-size: 1.3em;
     }
 
     .info2 {
         margin-top: 1em;
         width: 80%;
         padding-right: 3em;
+        font-size: 1.3em;
     }
 
     .linkedin1,
@@ -177,6 +172,7 @@ hr {
         word-break: break-all;
         hyphens: auto;
         margin-bottom: 1em;
+        font-size: 1em;
     }
 
     .linkedin2 {
@@ -185,5 +181,6 @@ hr {
         word-break: break-all;
         hyphens: auto;
         margin-bottom: 1em;
+        font-size: 1em;
     }
  }
