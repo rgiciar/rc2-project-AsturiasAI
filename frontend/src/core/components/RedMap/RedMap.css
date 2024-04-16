@@ -18,7 +18,7 @@
 }
 
 .redIcon img {
-    height: 3rem;
+    height: 3.5rem;
     transition: transform 0.3s ease;
 }
 
@@ -31,50 +31,20 @@
 
 /* Ubiación de los iconos */
 
-#eventbrite {
-    position: absolute;
-    top: 60%;
-    left: 28%;
-}
-
-#github {
-    position: absolute;
-    top: 25%;
-    left: 22%;
-}
-
-#linkedin {
-    position: absolute;
-    top:35%;
-    left: 35%;
-}
-
 #spotify {
     position: absolute;
-    top:55%;
-    left: 43%;
-}
-
-#facebook {
-    position: absolute;
-    top: 20%;
-    left: 49%;
+    top: 35%;
+    left: 28%;
 }
 
 #xTwitter {
     position: absolute;
-    top: 50%;
-    left: 56%;
+    top: 52%;
+    left: 45%;
 }
 
 #youtube {
     position: absolute;
     top: 32%;
-    left: 64%;
-}
-
-#twitch {
-    position: absolute;
-    top: 40%;
-    left: 76%;
+    left: 62%;
 }
