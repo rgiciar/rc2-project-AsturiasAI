@@ -1,23 +1,29 @@
-
-.conteiner-contact {
-background-color: rgba(127, 200, 255, 0.3);
-display: flex;
-
-align-items: center;
-width: 80%;
-margin: 2em auto;
-justify-content: center;
-align-items: center;
-
+.container-contact {
+  background-color: rgba(127, 200, 255, 0.3);
+  width: 50%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-between;
+  
 }
 .texto-contact {
-    margin:3rem;
-    width: 20rem;
-    color: white;
-display: grid;
-gap: 2rem;
-justify-content: center;
-align-items: center;
-
+  margin: 3rem;
+  width: 30rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: larger;
 }
+
+.title-contact {
+    font-size: x-large;
+}
+
+.info-contact {
+    font-size: medium;
+}
+
+
+
 

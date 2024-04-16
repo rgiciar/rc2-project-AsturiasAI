@@ -20,6 +20,7 @@ export const FormContact = () => {
           {/* nombre */}
           <input
             className="form-name"
+            placeholder="NOMBRE"
             type="text"
             {...register("Nombre", {
               required: true,
@@ -27,9 +28,10 @@ export const FormContact = () => {
           />
           {errors.Name && <span>*</span>}
         </div>
-        <div className="email-conteiner">
+        <div className="email-container">
           <input
             className="form-email"
+            placeholder="EMAIL"
             type="text"
             {...register("Email", {
               required: true,
@@ -40,12 +42,13 @@ export const FormContact = () => {
         <div className="affair-conteiner">
           <input
             className="form-affair"
+            placeholder="ASUNTO"
             type="text"
             {...register("Asunto")}
           />
         </div>
         <div className="message-conteiner">
-          <textarea className="form-message" {...register("message")} />
+          <textarea placeholder="MENSAJE" className="form-message" {...register("message")} />
         </div>
         <button type="submit" className="send-contact">
           ENVIAR
