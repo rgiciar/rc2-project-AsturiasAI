@@ -1,5 +1,12 @@
 import "../AboutUs/AboutUs.css";
 
+import PatriciaAcebes from "../../assets/images/Patricia_Acebes.jpg";
+import BeatrizInfanzon from "../../assets/images/Beatriz_Infanzon.png";
+import PabloViejo from "../../assets/images/Pablo_Viejo.jpg";
+import PabloManuel from "../../assets/images/Pablo_Manuel.jpg";
+import AndresAbad from "../../assets/images/Andres_Abad.png";
+
+
 export const AboutUs = () => {
   return (
     <div>
@@ -9,7 +16,7 @@ export const AboutUs = () => {
       <div className="quienes-somos">
         <div className="section">
           <div className="content">
-            <img src="../../assets/images/patricia.jpg" alt="Imagen 1" className="round-image1" />
+            <img src={PatriciaAcebes} alt="Imagen 1" className="round-image1" />
             <h2 className="name1">PATRICIA ACEBES TAMARGO</h2>
           </div>
           <div className="info1">
@@ -66,14 +73,14 @@ export const AboutUs = () => {
             </a>
           </div>
           <div className="content">
-            <img src="../../assets/images/Beatriz_Infanzón.png" alt="Imagen 2" className="round-image2" />
+            <img src={BeatrizInfanzon} alt="Imagen 2" className="round-image2" />
             <h2 className="name2">BEATRIZ INFANZÓN</h2>
           </div>
         </div>
         <hr />
         <div className="section3">
           <div className="content">
-            <img src="../../assets/images/pablo_viejo.jpg" alt="Imagen 3" className="round-image3" />
+            <img src={PabloViejo} alt="Imagen 3" className="round-image3" />
             <h2 className="name3">PABLO VIEJO</h2>
           </div>
           <div className="info3">
@@ -137,15 +144,15 @@ export const AboutUs = () => {
             </a>
           </div>
           <div className="content">
-            <img src="../../assets/images/Pablo_Manuel.jpg" alt="Imagen 4" className="round-image4" />
+            <img src={PabloManuel} alt="Imagen 4" className="round-image4" />
             <h2 className="name4">PABLO MANUEL GARCIA CORZO</h2>
           </div>
         </div>
         <hr />
         <div className="section5">
           <div className="content">
-            <img src="../../assets/images/Andres_Abad.png" alt="Imagen 5" className="round-image5" />
-            <h2 className="name5">ADRES ABAD RODRIGUEZ</h2>
+            <img src={AndresAbad} alt="Imagen 5" className="round-image5" />
+            <h2 className="name5">ANDRES ABAD RODRIGUEZ</h2>
           </div>
           <div className="info5">
             <p>

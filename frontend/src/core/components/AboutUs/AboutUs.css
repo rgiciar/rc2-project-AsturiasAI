@@ -55,21 +55,12 @@
 }
 
 
-.round-image1,
-.round-image3,
-.round-image5 {
+.content img {
     border-radius: 50%;
     width: 12em;
     height: 12em;
     margin: 2em 2em 0 2em;
-}
-
-.round-image2,
-.round-image4 {
-    border-radius: 50%;
-    width: 12em;
-    height: 12em;
-    margin: 2em 2em 0 2em;
+    object-fit: cover;
 }
 
 .info1,
