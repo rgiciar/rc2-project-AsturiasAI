@@ -10,7 +10,7 @@ export const Header = () => {
           <img src={logo} alt="" />
         </Link>
       </div>
-      <nav>
+      <nav className="header-list">
         <ul>
           <li>
             <Link smooth to="/#seccion-about">
