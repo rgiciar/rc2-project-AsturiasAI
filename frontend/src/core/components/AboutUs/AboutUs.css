@@ -126,253 +126,246 @@ hr {
     margin-top: 2em;
 }
 
-@media (max-width: 768px) {
-<<<<<<< HEAD
-=======
-
-    .title {
-        text-align: center;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
->>>>>>> 89fab3f (Cambios en aboutus css)
+@media (max-width: 480px) {
 
     .quienes-somos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 80%;
-        margin: 2em auto;
-        background-color: rgba(127, 200, 255, 0.3);
-    }
-
-
-    .section {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 94%;
-        margin-top: 4em;
-    }
-
-
-    .section2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 94%;
-    }
-
-    .section3 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 94%;
-        margin-bottom: 4em;
-    }
-
-    .section4 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 94%;
-        margin-bottom: 4em;
-    }
-
-    .section5 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 94%;
-        margin-bottom: 4em;
-    }
-
-
-    .round-image1,
-    .round-image3,
-    .round-image5 {
-        border-radius: 50%;
-        width: 12em;
-        height: 12em;
-        margin: 2em 2em 0 2em;
-        background-color: blue;
-    }
-
-    .round-image2,
-    .round-image4 {
-        border-radius: 50%;
-        width: 12em;
-        height: 12em;
-        margin: 2em 2em 0 2em;
-    }
-
-    .info1,
-    .info3,
-    .info5 {
-        width: 79%;
-        text-align: center;
-        color: #ffffff;
-        font-size: 2em;
-        margin-right: 3em;
-        text-align: justify;
-    }
-
-    .info2,
-    .info4 {
-        width: 79%;
-        text-align: center;
-        color: #ffffff;
-        font-size: 2em;
-        margin-left: 3em;
-        text-align: justify;
-    }
-
-    .linkedin1,
-    .linkedin2,
-    .linkedin3,
-    .linkedin4,
-    .linkedin5 {
-        color: #ffffff;
-        font-size: 1.2em;
-        margin-top: 1em;
-        display: block;
-    }
-
-
-    hr {
         width: 90%;
-        border: 1px solid #ffffff;
-        margin: 5em 0;
+    }
+
+    .section,
+    .section3,
+    .section5 {
+        flex-direction: column;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .section2,
+    .section4 {
+        flex-direction: column-reverse;
+        margin-right: 2em;
+        margin-left: 2em;
     }
 
     .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 12em;
-        text-align: center;
+        margin-bottom: 1em;
     }
-
 
     .name1,
     .name3,
     .name5 {
-        font-size: 1.8em;
-        color: #ffffff;
-        margin-top: 2em;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.4em;
     }
 
     .name2,
     .name4 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.4em;
+
+    }
+
+
+    .info1,
+    .info3,
+    .info5 {
+        margin-top: 1em;
+        width: 80%;
+        padding-left: 3em;
+        font-size: 1.3em;
+    }
+
+    .info2,
+    .info4 {
+        margin-top: 1em;
+        width: 80%;
+        padding-right: 3em;
+        font-size: 1.3em;
+    }
+
+    .linkedin1,
+    .linkedin3,
+    .linkedin5 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+        font-size: 1em;
+    }
+
+    .linkedin2,
+    .linkedin4 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+
+    .quienes-somos {
+        width: 90%;
+    }
+
+    .section,
+    .section3,
+    .section5 {
+        flex-direction: column;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .section2,
+    .section4 {
+        flex-direction: column-reverse;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .content {
+        margin-bottom: 1em;
+    }
+
+    .name1,
+    .name3,
+    .name5 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.4em;
+    }
+
+    .name2,
+    .name4 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.4em;
+
+    }
+
+
+    .info1,
+    .info3,
+    .info5 {
+        margin-top: 1em;
+        width: 80%;
+        padding-left: 3em;
         font-size: 1.8em;
-        color: #ffffff;
-        margin-top: 2em;
     }
 
-    @media (max-width: 767px) {
-
-        .quienes-somos {
-            width: 90%;
-        }
-
-        .section,
-        .section3,
-        .section5 {
-            flex-direction: column;
-            margin-right: 2em;
-            margin-left: 2em;
-        }
-
-        .section2,
-        .section4 {
-            flex-direction: column-reverse;
-            margin-right: 2em;
-            margin-left: 2em;
-        }
-
-        .content {
-            margin-bottom: 1em;
-        }
-
-        .name1,
-        .name3,
-        .name5 {
-            margin-top: 1.5em;
-            margin-bottom: 0.5em;
-            font-size: 1.4em;
-        }
-
-        .name2,
-        .name4 {
-            margin-top: 1.5em;
-            margin-bottom: 0.5em;
-            font-size: 1.4em;
-
-        }
-
-
-        .info1,
-        .info3,
-        .info5 {
-            margin-top: 1em;
-            width: 80%;
-            padding-left: 3em;
-            font-size: 1.3em;
-        }
-
-        .info2,
-        .info4 {
-            margin-top: 1em;
-            width: 80%;
-            padding-right: 3em;
-            font-size: 1.3em;
-        }
-
-        .linkedin1,
-        .linkedin3,
-        .linkedin5 {
-            margin-top: 0.5em;
-            width: 79%;
-            word-break: break-all;
-            hyphens: auto;
-            margin-bottom: 1em;
-            font-size: 1em;
-        }
-
-        .linkedin2,
-        .linkedin4 {
-            margin-top: 0.5em;
-            width: 79%;
-            word-break: break-all;
-            hyphens: auto;
-            margin-bottom: 1em;
-            font-size: 1em;
-        }
+    .info2,
+    .info4 {
+        margin-top: 1em;
+        width: 80%;
+        padding-right: 3em;
+        font-size: 1.8em;
     }
 
-    @media (min-width: 768px) and (max-width: 1024px) {
-
-        .quienes-somos {
-            width: 90%;
-        }
-
-        .content {
-            margin-bottom: 4em;
-        }
-
-        .section,
-        .section3,
-        .section5 {
-            flex-direction: column;
-            width: 100%;
-        }
-
-        .section2,
-        .section4 {
-            flex-direction: column-reverse;
-            width: 90%;
-            margin-left: 2em;
-        }
-
-        
+    .linkedin1,
+    .linkedin3,
+    .linkedin5 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+        font-size: 1em;
     }
+
+    .linkedin2,
+    .linkedin4 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+    .quienes-somos {
+        width: 90%;
+    }
+
+    .section,
+    .section3,
+    .section5 {
+        flex-direction: column;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .section2,
+    .section4 {
+        flex-direction: column-reverse;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .content {
+        margin-bottom: 1em;
+    }
+
+    .name1,
+    .name3,
+    .name5 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.4em;
+    }
+
+    .name2,
+    .name4 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.4em;
+
+    }
+
+
+    .info1,
+    .info3,
+    .info5 {
+        margin-top: 1em;
+        width: 80%;
+        padding-left: 3em;
+        font-size: 1.8em;
+    }
+
+    .info2,
+    .info4 {
+        margin-top: 1em;
+        width: 80%;
+        padding-right: 3em;
+        font-size: 1.8em;
+    }
+
+    .linkedin1,
+    .linkedin3,
+    .linkedin5 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+        font-size: 1em;
+    }
+
+    .linkedin2,
+    .linkedin4 {
+        margin-top: 0.5em;
+        width: 79%;
+        word-break: break-all;
+        hyphens: auto;
+        margin-bottom: 1em;
+        font-size: 1em;
+    }
+
+}
