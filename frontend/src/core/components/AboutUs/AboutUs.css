@@ -127,6 +127,15 @@ hr {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
+=======
+
+    .title {
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+>>>>>>> 89fab3f (Cambios en aboutus css)
 
     .quienes-somos {
         display: flex;
