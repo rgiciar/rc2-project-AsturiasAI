@@ -1,7 +1,7 @@
 .sectionMap {
     position: relative;
     width: 100vw;
-    height: 60vh;
+    height: auto;
 }
 
 .redMap {
@@ -18,7 +18,7 @@
 }
 
 .redIcon img {
-    height: 3.5rem;
+    height: 4rem;
     transition: transform 0.3s ease;
 }
 
@@ -39,12 +39,32 @@
 
 #xTwitter {
     position: absolute;
-    top: 52%;
-    left: 45%;
+    top: 50%;
+    left: 43%;
 }
 
 #youtube {
     position: absolute;
-    top: 32%;
+    top: 40%;
     left: 62%;
 }
+
+/* Estilos generales para dispositivos móviles */
+/* Se aplican a dispositivos con una anchura máxima de 767px */
+@media only screen and (max-width: 767px) {
+    .redIcon img {
+        height: 2.3rem;
+    }
+
+    #xTwitter {
+        top: 47%;
+    }
+  }
+  
+  /* Estilos para tablets */
+  /* Se aplican a dispositivos con una anchura mínima de 768px y una anchura máxima de 1023px */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .redIcon img {
+        height: 3.5rem;
+    }
+  }

@@ -14,9 +14,9 @@ export const FormContact = () => {
   };
 
   return (
-    <section className="contact-form-conteiner">
+    <section className="contact-form-container">
       <form className="form-contact" onSubmit={handleSubmit(onSubmit) }>
-        <div className="name-conteiner">
+        <div className="name-container">
           {/* nombre */}
           <input
             className="form-name"
