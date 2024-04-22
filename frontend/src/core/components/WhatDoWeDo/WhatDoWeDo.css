@@ -84,7 +84,8 @@
     }
 
     .contenido {
-        width: 90%;
+        width: 100%;
+        margin-left: 3.5em;
     }
 
     .container-whatdowedo {
@@ -93,11 +94,11 @@
 
     .container-whatdowedo h2,
     .container-whatdowedo h3 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .container-whatdowedo ul {
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
 }
 
