@@ -1,8 +1,8 @@
 import "./Footer.css";
 
 export const Footer = () => {
+  
   return (
-    <footer>
       <nav className="footer">
         <ul className="list-footer">
           <li>
@@ -21,6 +21,5 @@ export const Footer = () => {
           </li>
         </ul>
       </nav>
-    </footer>
   );
 };

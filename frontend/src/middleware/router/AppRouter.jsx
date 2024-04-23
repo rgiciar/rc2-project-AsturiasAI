@@ -1,20 +1,18 @@
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "../../core/pages/Home/Home";
-import { Header } from "../../core/components/Header/Header";
-import { Footer } from "../../core/components/Footer/Footer";
 import { Contact } from "../../core/components/Contact/Contact";
 import { Blog } from "../../core/pages/Blog/Blog";
+import { Layout } from "../../core/components/Layout/Layout";
 
 export const AppRouter = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <Outlet />
-      <Footer />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

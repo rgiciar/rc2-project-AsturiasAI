@@ -1,11 +1,11 @@
-body {
+/* body {
   position: relative;
   margin: 0;
   min-height: 100vh;
   padding: 0;
-}
+} */
+
 .footer {
-  position: absolute;
   bottom: 0;
   display: flex;
   align-items: center;
@@ -13,10 +13,14 @@ body {
   padding: 10px 20px;
   background-color: #10254c;
   list-style-type: none;
+  margin-top: auto;
 }
+
+
 body.scrolled #footer {
   visibility: visible;
 }
+
 .list-footer {
   list-style-type: none;
   display: flex;
@@ -27,6 +31,7 @@ body.scrolled #footer {
   padding: 0;
   text-decoration: none;
 }
+
 .list-footer a {
   color: #66e8f2;
   font-size: 2rem;
@@ -35,6 +40,7 @@ body.scrolled #footer {
 .list-footer li {
   padding: 0 20px;
 }
+
 .f5 a {
   color: #66e8f2;
   font-size: 2rem;
@@ -47,11 +53,14 @@ body.scrolled #footer {
   flex-direction: flex-end;
   margin-left: auto;
   margin-right: 30px;
+  list-style: none;
 }
+
 .list-footer a:hover,
 .f5 a:hover {
   text-decoration: underline;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
@@ -95,3 +104,28 @@ body.scrolled #footer {
     margin-bottom: 10px;
   }
 }
+=======
+
+
+
+@media only screen and (max-width: 900px) {
+  .footer li a {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .footer, .footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .f5 {
+    margin: 7px 0;
+  }
+}
+>>>>>>> cc640f0 (Modificado Header, Footer, Router)
