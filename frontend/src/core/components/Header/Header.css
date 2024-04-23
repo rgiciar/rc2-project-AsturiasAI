@@ -7,61 +7,110 @@
 }
 
 .header-container img {
-  width: 10rem;
+  display: flex;
+  width: auto;
   height: 10rem;
 }
-.header-container nav ul {
+
+.header-container ul {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.header-container li {
-  display: inline;
-  margin-right: 20px;
 }
 
-.header-container nav ul li:last-child {
-  margin-right: 0;
-}
 .header-container nav a {
   color: #66e8f2;
   text-decoration: none;
   font-size: 2rem;
-  margin-right: 10px;
 }
+
 .header-container nav ul li a :hover {
   text-decoration: underline;
 }
 
-.header-container li:hover {
-  text-shadow: 0px 0px 3px #2cece4;
+.header-container li:hover{
+  text-shadow: 0px 0px 3px #2CECE4;
 }
-/* @media only screen and (max-width: 767px) {
-  .header-container {
-    flex-direction: column;
-    padding: 10px;
-    align-items: flex-start;
-  }
-  .header-container nav {
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-.header-container li {
+
+.header-container nav.open {
   display: block;
-  margin-right: 0;
-  margin-bottom: 10px;
-  font-size: 1.5rem;
 }
-@media only screen and (max-width: 1024px) {
-  .header-container {
-    flex-direction: row;
+
+.menu {
+  /* display: none; */
+}
+
+.menu.open {
+  display: block;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  margin: 0 20px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background: #66e8f2;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  margin-bottom: 10px; /* Espaciado entre los elementos del menú */
+}
+
+.menu ul li a {
+  color: #66e8f2;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* Estilos adicionales para cuando el menú está abierto */
+.menu.open ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+.menu-toggle {
+  display: block;
+}
+
+.header-container ul li {
+  /* display: none; */
+}
+
+/*   .header-container p {
+    font-size: 1.7rem;
   }
 
-  .header-container li {
-    margin-right: 20px;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-  }
-} */
+  .header-container ul {
+    width: 450px;
+  } */
+}

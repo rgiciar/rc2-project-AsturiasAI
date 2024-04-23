@@ -6,13 +6,6 @@
   outline: none;
   font-family: var(--myFont);
   /*outline: red solid 1px;*/
-  overflow-x: hidden;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 html {
