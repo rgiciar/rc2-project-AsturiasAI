@@ -1,14 +1,16 @@
-.title {
+.title-1 {
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
+    color: #ffffff;
+    font-size: 4em;
 }
 
 .quienes-somos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 2em auto;
     background-color: rgba(127, 200, 255, 0.3);
 }
@@ -128,6 +130,10 @@ hr {
 
 @media (max-width: 480px) {
 
+    .title-1 {
+        font-size: 3em;
+    }
+
     .quienes-somos {
         width: 90%;
     }
@@ -207,87 +213,6 @@ hr {
     }
 }
 
-@media screen and (min-device-width: 481px) and (orientation:landscape) {
-
-    .quienes-somos {
-        width: 90%;
-    }
-
-    .section,
-    .section3,
-    .section5 {
-        flex-direction: column;
-        margin-right: 2em;
-        margin-left: 2em;
-    }
-
-    .section2,
-    .section4 {
-        flex-direction: column-reverse;
-        margin-right: 2em;
-        margin-left: 2em;
-    }
-
-    .content {
-        margin-bottom: 1em;
-    }
-
-    .name1,
-    .name3,
-    .name5 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.5em;
-    }
-
-    .name2,
-    .name4 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.5em;
-
-    }
-
-
-    .info1,
-    .info3,
-    .info5 {
-        margin-top: 1em;
-        width: 98%;
-        padding-left: 3em;
-        font-size: 2em;
-    }
-
-    .info2,
-    .info4 {
-        margin-top: 1em;
-        width: 98%;
-        padding-right: 3em;
-        font-size: 2em;
-    }
-
-    .linkedin1,
-    .linkedin3,
-    .linkedin5 {
-        margin-top: 0.5em;
-        width: 79%;
-        word-break: break-all;
-        hyphens: auto;
-        margin-bottom: 1em;
-        font-size: 1em;
-    }
-
-    .linkedin2,
-    .linkedin4 {
-        margin-top: 0.5em;
-        width: 79%;
-        word-break: break-all;
-        hyphens: auto;
-        margin-bottom: 1em;
-        font-size: 1em;
-    }
-
-}
 
 @media screen and (min-device-width: 481px) and (orientation:portrait) {
     .quienes-somos {

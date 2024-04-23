@@ -49,85 +49,28 @@
     color: white;
 }
 
-@media (max-width: 767px) {
-    .title {
-        font-size: 2em;
-    }
-
-
-    .container-whatdowedo h3 {
-        font-size: 1.6em;
-        text-decoration: underline;
-        text-align: center;
-        margin-right: 3em;
-    }
-
-
-    .container-whatdowedo {
-        margin-top: 1em;
-        margin-left: -1.8em;
-        margin-right: -1.8em;
-    }
-
-    .container-whatdowedo ul {
-        font-size: 1.3em;
-        text-align: justify;
-        letter-spacing: normal;
-        text-justify: inter-word;
-    }
-}
-
 @media (max-width: 480px) {
 
-    .title {
-        font-size: 3.5em;
-    }
-
-    .contenido {
-        width: 100%;
-        margin-left: 3.5em;
-    }
-
     .container-whatdowedo {
         margin-top: 8em;
+        width: 99%;
     }
-
-    .container-whatdowedo h2,
-    .container-whatdowedo h3 {
-        font-size: 2em;
-    }
-
-    .container-whatdowedo ul {
-        font-size: 1.8em;
-    }
-}
-
-@media screen and (min-device-width: 481px) and (orientation:landscape) {
 
     .title {
         font-size: 3.5em;
+        margin-left: 1em;
     }
 
     .contenido {
-        width: 90%;
+        width: 92%;
+        margin-left: 3.6em;
     }
 
-    .container-whatdowedo {
-        margin-top: 8em;
-    }
 
-    .container-whatdowedo h2,
-    .container-whatdowedo h3 {
-        font-size: 1.8em;
-    }
-
-    .container-whatdowedo ul {
-        font-size: 1.6em;
-    }
 }
 
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
 
+@media screen and (min-device-width: 481px) and (orientation: portrait) {
     .title {
         font-size: 3.5em;
     }
@@ -138,13 +81,12 @@
         width: 99%;
     }
 
-    .container-whatdowedo h2,
     .container-whatdowedo h3 {
-        font-size: 1.8em;
+        font-size: 2.4em;
+        padding-right: 3em;
     }
 
     .container-whatdowedo ul {
-        font-size: 1.6em;
+        font-size: 2em;
     }
-
-}
+} 
