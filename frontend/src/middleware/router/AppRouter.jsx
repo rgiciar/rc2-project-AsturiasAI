@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "../../core/pages/Home/Home";
 import { Contact } from "../../core/components/Contact/Contact";
-import { Blog } from "../../core/pages/Blog/Blog";
 import { Layout } from "../../core/components/Layout/Layout";
+import  BlogList  from "../../core/pages/Blog/BlogList";
+import SingleBlog from "../../core/pages/Blog/SingleBlog";
 
 export const AppRouter = () => {
   return (
@@ -11,7 +12,8 @@ export const AppRouter = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blogDetails/:id" element={<SingleBlog />} />
+          <Route path="/blogList" element={<BlogList />} />
         </Route>
       </Routes>
     </BrowserRouter>

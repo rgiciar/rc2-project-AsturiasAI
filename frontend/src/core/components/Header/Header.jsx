@@ -36,7 +36,7 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <Link smooth to="/blog">
+            <Link smooth to="/blogList">
               <p>Blog</p>
             </Link>
           </li>
