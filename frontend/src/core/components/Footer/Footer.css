@@ -60,51 +60,6 @@ body.scrolled #footer {
 .f5 a:hover {
   text-decoration: underline;
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 767px) {
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-  }
-  .list-footer,
-  .f5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .list-footer a,
-  .f5 a {
-    font-size: 1.2rem;
-    padding: 5px 15px;
-    display: flex;
-    text-align: left;
-    margin-bottom: 5px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-  }
-  .list-footer,
-  .f5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .list-footer a,
-  .f5 a {
-    font-size: 1.2rem;
-    padding: 10px 15px;
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-}
-=======
 
 
 
@@ -128,4 +83,3 @@ body.scrolled #footer {
     margin: 7px 0;
   }
 }
->>>>>>> cc640f0 (Modificado Header, Footer, Router)

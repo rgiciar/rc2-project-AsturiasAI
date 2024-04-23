@@ -18,16 +18,12 @@ export const Header = () => {
           <img src={logo} alt="" />
         </Link>
       </div>
-<<<<<<< HEAD
-      <nav className="header-list">
-=======
       <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
         <button className="menu-toggle" onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
         </button>
->>>>>>> cc640f0 (Modificado Header, Footer, Router)
         <ul>
           <li>
             <Link smooth to="/#seccion-about">
