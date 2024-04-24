@@ -9,65 +9,63 @@
 .contenido {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin-left: 6em;
+    align-items: center;
     background-color: rgba(127, 200, 255, 0.3);
     padding-bottom: 4em;
 }
 
 .container-whatdowedo {
-    margin-top: 10em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em auto;
 }
 
-.container-whatdowedo h2 {
-    text-align: left;
-    font-size: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 3em;
-    color: white;
-}
 
 .container-whatdowedo ul {
-    margin-left: 3em;
     font-size: 2em;
     color: white;
-    text-align: justify;
-    margin-right: 3em;
+    
 }
 
 .contenido li {
     margin-bottom: 0.5em;
-    list-style: circle;
+   
 }
 
 .container-whatdowedo h3 {
-    font-size: 2em;
-    margin-left: 3em;
+    font-size: 3em;
     margin-top: 2em;
     margin-bottom: 2em;
     color: white;
 }
 
-@media (max-width: 480px) {
+.seccion1, .seccion2,.seccion3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+    text-align: justify;
+}
 
-    .container-whatdowedo {
-        margin-top: 8em;
-        width: 99%;
-    }
+/* @media (max-width: 480px) {
 
     .title {
         font-size: 3.5em;
-        margin-left: 1em;
     }
 
-    .contenido {
-        width: 92%;
-        margin-left: 3.6em;
+   
+
+    .container-whatdowedo h3 {
+        font-size: 2.4em;
     }
 
+    .container-whatdowedo ul {
+        font-size: 2em;
+    }
+} 
 
-}
 
 
 @media screen and (min-device-width: 481px) and (orientation: portrait) {
@@ -77,16 +75,13 @@
 
     .container-whatdowedo {
         margin-top: 8em;
-        margin-left: -1.5em;
-        width: 99%;
     }
 
     .container-whatdowedo h3 {
         font-size: 2.4em;
-        padding-right: 3em;
     }
 
     .container-whatdowedo ul {
         font-size: 2em;
     }
-} 
+}  */

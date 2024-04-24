@@ -45,7 +45,7 @@ export const AboutUs = () => {
               rel="noopener noreferrer"
               className="linkedin1"
             >
-              Más sobre mí: https://www.linkedin.com/in/patriciaacebestamargo/
+              Más sobre mí
             </a>
           </div>
         </div>

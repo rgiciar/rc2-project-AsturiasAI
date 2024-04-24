@@ -9,7 +9,7 @@ export const NewsLetter = () => {
             <iframe
 
                 src="https://oliversanchezcasiano.substack.com/embed"
-                width="480"
+                width="400"
                 height="150"
                 frameborder="no"
                 scrolling="no">
