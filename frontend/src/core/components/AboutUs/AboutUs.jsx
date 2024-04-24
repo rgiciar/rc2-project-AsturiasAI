@@ -45,7 +45,7 @@ export const AboutUs = () => {
               rel="noopener noreferrer"
               className="linkedin1"
             >
-              Más sobre mí: https://www.linkedin.com/in/patriciaacebestamargo/
+              Más sobre mí
             </a>
           </div>
         </div>
@@ -69,7 +69,7 @@ export const AboutUs = () => {
               rel="noopener noreferrer"
               className="linkedin2"
             >
-              Más sobre mí: https://www.linkedin.com/in/beatrizinfanzon/
+              Más sobre mí
             </a>
           </div>
           <div className="content">
@@ -112,7 +112,7 @@ export const AboutUs = () => {
               rel="noopener noreferrer"
               className="linkedin3"
             >
-              Más sobre mí: https://www.linkedin.com/in/pablo-viejo/
+              Más sobre mí
             </a>
           </div>
         </div>
@@ -140,7 +140,7 @@ export const AboutUs = () => {
               rel="noopener noreferrer"
               className="linkedin4"
             >
-              Más sobre mí: https://www.linkedin.com/in/pablomgc/
+              Más sobre mí
             </a>
           </div>
           <div className="content">
@@ -169,7 +169,7 @@ export const AboutUs = () => {
               rel="noopener noreferrer"
               className="linkedin5"
             >
-              Más sobre mí: https://www.linkedin.com/in/pablo-viejo/
+              Más sobre mí
             </a>
           </div>
         </div>
