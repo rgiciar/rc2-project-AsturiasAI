@@ -49,7 +49,7 @@
 .affair-container, .message-container, .email-container, .name-container {
   width: 100%;
   display: flex;
-  justify-content:;
+  justify-content:center;
 }
 
 @media (max-width: 768px){
