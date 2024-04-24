@@ -11,12 +11,16 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-    margin: 2em auto;
+    margin: 0 auto;
     background-color: rgba(127, 200, 255, 0.3);
 }
 
 
-.section,.section2,.section3,.section4,.section5 {
+.section,
+.section2,
+.section3,
+.section4,
+.section5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,91 +105,6 @@ hr {
     margin-top: 2em;
 }
 
-@media (max-width: 480px) {
-
-    .title-1 {
-        font-size: 3em;
-    }
-
-    .quienes-somos {
-        width: 90%;
-    }
-
-    .section,
-    .section3,
-    .section5 {
-        flex-direction: column;
-        margin-right: 2em;
-        margin-left: 2em;
-    }
-
-    .section2,
-    .section4 {
-        flex-direction: column-reverse;
-        margin-right: 2em;
-        margin-left: 2em;
-    }
-
-    .content {
-        margin-bottom: 1em;
-    }
-
-    .name1,
-    .name3,
-    .name5 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.4em;
-    }
-
-    .name2,
-    .name4 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.4em;
-
-    }
-
-
-    .info1,
-    .info3,
-    .info5 {
-        margin-top: 1em;
-        width: 80%;
-        padding-left: 3em;
-        font-size: 1.3em;
-    }
-
-    .info2,
-    .info4 {
-        margin-top: 1em;
-        width: 80%;
-        padding-right: 3em;
-        font-size: 1.3em;
-    }
-
-    .linkedin1,
-    .linkedin3,
-    .linkedin5 {
-        margin-top: 0.5em;
-        width: 79%;
-        word-break: break-all;
-        hyphens: auto;
-        margin-bottom: 1em;
-        font-size: 1em;
-    }
-
-    .linkedin2,
-    .linkedin4 {
-        margin-top: 0.5em;
-        width: 79%;
-        word-break: break-all;
-        hyphens: auto;
-        margin-bottom: 1em;
-        font-size: 1em;
-    }
-}
-
 
 @media screen and (min-device-width: 481px) and (orientation:portrait) {
     .quienes-somos {
@@ -196,19 +115,16 @@ hr {
     .section3,
     .section5 {
         flex-direction: column;
-        margin-right: 2em;
-        margin-left: 2em;
     }
 
     .section2,
     .section4 {
         flex-direction: column-reverse;
-        margin-right: 2em;
-        margin-left: 2em;
     }
 
     .content {
         margin-bottom: 1em;
+        width: 79%;
     }
 
     .name1,
@@ -233,7 +149,6 @@ hr {
     .info5 {
         margin-top: 1em;
         width: 92%;
-        padding-left: 3em;
         font-size: 2em;
     }
 
@@ -241,7 +156,6 @@ hr {
     .info4 {
         margin-top: 1em;
         width: 92%;
-        padding-right: 3em;
         font-size: 2em;
     }
 
@@ -266,4 +180,15 @@ hr {
         font-size: 1em;
     }
 
+}
+
+@media (max-width: 480px) {
+
+    .info1,
+    .info2,
+    .info3,
+    .info4,
+    .info5 {
+        font-size: 1.3em;
+    }
 }
