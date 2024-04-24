@@ -1,48 +1,47 @@
+import "./Header.css";
 import logo from "../../assets/images/logoHeader.png";
 import { HashLink as Link } from "react-router-hash-link";
-import "./Header.css";
 import { useState } from "react";
 
 export const Header = () => {
-
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [menuAbierto, setMenuAbierto] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setMenuAbierto(!menuAbierto);
   };
 
   return (
     <header className="header-container">
-      <div>
+      <div className="logo-container">
         <Link to="/">
-          <img src={logo} alt="" />
+          <img className="logo" src={logo} alt="" />
         </Link>
       </div>
-      <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
-        <button className="menu-toggle" onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <ul>
+
+      <button onClick={toggleMenu} className="abrir-menu">
+        Abrir
+      </button>
+
+      <nav className={`nav ${menuAbierto ? "visible" : ""}`}>
+        <ul className="nav-list">
           <li>
             <Link smooth to="/#seccion-about">
-              <p>Quienes somos</p>
+              Quienes somos
             </Link>
           </li>
           <li>
             <Link smooth to="/#seccion-what">
-              <p>Que hacemos</p> 
+              Que hacemos 
             </Link>
           </li>
           <li>
-            <Link smooth to="/blogList">
-              <p>Blog</p>
+            <Link smooth to="/blog">
+              Blog
             </Link>
           </li>
           <li>
             <Link smooth to="/contact">
-              <p>Contacto</p>
+              Contacto
             </Link>
           </li>
         </ul>
