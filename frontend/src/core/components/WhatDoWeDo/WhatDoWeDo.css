@@ -1,12 +1,12 @@
 .whatdo-title {
     font-size: 3em;
     margin-bottom: 1em;
-    color: white;
+    color: var(--white);
 }
 
 .whatdo-text ul {
     font-size: 2em;
-    color: white;
+    color: var(--white);
     text-align: justify;
     margin-bottom: 5rem;
 }

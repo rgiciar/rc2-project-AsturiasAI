@@ -19,8 +19,10 @@ body {
 }
 
 :root {
-  --black: #000;
-  --white: #fff;
+  --black: black;
+  --white: white;
+  --darkBlue: #10254c;
+  --lightBlue: #66e8f2;
   --myFont: Montserrat-Regular, Helvetica, sans-serif;
 }
 

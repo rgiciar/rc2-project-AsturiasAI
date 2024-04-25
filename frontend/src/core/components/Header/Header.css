@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #10254c;
+  background-color: var(--darkBlue);
 }
 
 .logo {
@@ -24,7 +24,7 @@
 }
 
 .nav a {
-  color: #66e8f2;
+  color: var(--lightBlue);
   text-decoration: none;
   font-size: 2rem;
 }
@@ -41,7 +41,7 @@
   position: absolute;
   right: 0;
   margin: 0 20px;
-  color: white;
+  color: var(--white);
   font-size: 3rem;
 }
 
@@ -92,7 +92,7 @@
   width: 25px;
   height: 3px;
   margin: 5px;
-  background: #66e8f2;
+  background: var(--lightBlue);
   transition: all 0.3s ease-in-out;
 }
 
