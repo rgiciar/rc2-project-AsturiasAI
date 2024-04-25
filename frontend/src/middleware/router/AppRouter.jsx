@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "../../core/pages/Home/Home";
-import { Contact } from "../../core/components/Contact/Contact";
+import { Contact } from "../../core/pages/Contact/Contact";
 import { Layout } from "../../core/components/Layout/Layout";
 import  BlogList  from "../../core/pages/Blog/BlogList";
 import SingleBlog from "../../core/pages/Blog/SingleBlog";

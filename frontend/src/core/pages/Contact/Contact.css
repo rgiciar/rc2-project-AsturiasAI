@@ -1,11 +1,11 @@
 .container-contact {
-  background-color: rgba(127, 200, 255, 0.3);
+  background-color: var(--blue);
   width: 50%;
   margin: 2em auto;
   display: flex;
   justify-content: space-between;
-  
 }
+
 .texto-contact {
   margin: 3rem;
   width: 30rem;
@@ -33,6 +33,7 @@
     justify-content: center; 
     align-items: center;  
   }
+
   .container-contact {
     background-color: rgba(127, 200, 255, 0.3);
     width: 60%;
@@ -51,6 +52,7 @@
     justify-content: center; 
     align-items: center;  
   }
+}
 
 
 
