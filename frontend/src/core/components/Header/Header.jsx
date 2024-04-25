@@ -19,7 +19,9 @@ export const Header = () => {
       </div>
 
       <button onClick={toggleMenu} className="abrir-menu">
-        Abrir
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
       <nav className={`nav ${menuAbierto ? "visible" : ""}`}>

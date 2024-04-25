@@ -49,6 +49,15 @@
   display: block;
 }
 
+.abrir-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background: var(--lightBlue);
+  transition: all 0.3s ease-in-out;
+}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -60,8 +69,7 @@
     position: absolute;
     right: 0;
     top: 80px;
-    background-color: #195fe1;
-    width: 30vw;
+    background-color: var(--darkBlueOpacity);
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: none;
@@ -76,13 +84,14 @@
   .nav-list {
     flex-direction: column;
     display: flex;
-    align-items: center;
     width: auto;
+    margin-right: 2rem;
+    text-align: right;
   }
 
   .nav-list li {
-    margin-right: 0;
     margin-bottom: 10px;
+    white-space: nowrap;
   }
 }
 
