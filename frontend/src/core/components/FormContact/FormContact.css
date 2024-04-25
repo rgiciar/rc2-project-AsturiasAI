@@ -1,14 +1,20 @@
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
 .form-contact {
-  margin: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45rem;
-
+  width: 100%;
 }
+
 .form-contact input {
   padding: 1rem;
-  margin: 1rem;
+  margin-bottom: 2rem;
   height: 4rem;
   border-radius: 1rem;
   box-shadow: none;
@@ -18,7 +24,6 @@
 }
 
 .form-message {
-  margin: 1rem;
   border-radius: 1rem;
   box-shadow: none;
   outline: none;
@@ -26,12 +31,6 @@
   padding: 1rem;
   width: 100%;
   height: 15rem;
-}
-
-.contact-form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .send-contact {
@@ -53,68 +52,11 @@
 }
 
 @media (max-width: 768px){
-  .form-contact {
-    margin: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items:baseline;
-    width: 40rem;
-  
-  }
-  .form-contact input {
-    padding: 1rem;
-    margin: 1rem;
-    height: 2rem;
-    border-radius: .5rem;
-    box-shadow: none;
-    border: none;
-    outline: none;
-    width: 85%;
-    font-size: x-small;
-  }
-  .form-message {
-    padding: 1rem;
-    margin: 1rem;
-   
-    border-radius: 1rem;
-    box-shadow: none;
-    border: none;
-    outline: none;
-    width: 85%;
-    font-size: x-small;
-  }
+
 }
+
 @media (max-width: 479px){
-  .form-contact {
-    margin: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items:baseline;
-    width: 40rem;
-  
-  }
-  .form-contact input {
-    padding: 1rem;
-    margin: 1rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    box-shadow: none;
-    border: none;
-    outline: none;
-    width: 80%;
-    font-size: x-small;
-  }
-  .form-message {
-    padding: 1rem;
-    margin: 1rem;
-   
-    border-radius: 1rem;
-    box-shadow: none;
-    border: none;
-    outline: none;
-    width: 80%;
-    font-size: x-small;
-     padding: 1rem;
-    height: 10rem;
+  .contact-form-container{
+    width: 100%;
   }
 }
