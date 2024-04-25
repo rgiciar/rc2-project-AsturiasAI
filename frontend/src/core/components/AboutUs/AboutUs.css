@@ -1,84 +1,62 @@
-.title-1 {
+.blue-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(127, 200, 255, 0.3);
+    padding: 5%;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+}
+
+.title {
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 2em 0 0.8em 0;
     color: #ffffff;
     font-size: 4em;
 }
 
-.quienes-somos {
+.member-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    background-color: rgba(127, 200, 255, 0.3);
-}
-
-
-.section,
-.section2,
-.section3,
-.section4,
-.section5 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-}
-
-.section {
-    padding-top: 4em;
-}
-
-.section5 {
-    padding-bottom: 4em;
-}
-
-
-.content img {
-    border-radius: 50%;
+    justify-content: center;
     width: 12em;
-    height: 12em;
-    margin: 2em 2em 0 2em;
-    object-fit: cover;
+    text-align: center;
+
 }
 
-.info1,
-.info3,
-.info5 {
-    width: 79%;
-    text-align: center;
+.member-text {
+    width: 85%;
+    text-align: justify;
     color: #ffffff;
     font-size: 2em;
-    text-align: justify;
+    
 }
 
-.info2,
-.info4 {
-    width: 79%;
-    text-align: center;
+.member-text a{
+    cursor: pointer; 
     color: #ffffff;
-    font-size: 2em;
-    text-align: justify;
 }
-
-.linkedin1,
-.linkedin2,
-.linkedin3,
-.linkedin4,
-.linkedin5 {
-    color: #ffffff;
-    font-size: 1.2em;
-    margin-top: 1em;
-    display: block;
-}
-
 
 hr {
-    width: 90%;
+    width: 100%;
     border: 1px solid #ffffff;
-    margin: 5em 0;
+    margin: 4em 0;
 }
 
 .content {
@@ -89,106 +67,72 @@ hr {
     text-align: center;
 }
 
-
-.name1,
-.name3,
-.name5 {
+.name {
     font-size: 1.8em;
     color: #ffffff;
     margin-top: 2em;
 }
 
-.name2,
-.name4 {
-    font-size: 1.8em;
-    color: #ffffff;
-    margin-top: 2em;
+.member-text a.linkedin {
+    color: #66e8f2;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.member-text a.linkedin:hover {
+    color: white;
+}
+
+#member-right1, #member-right2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.member-text p {
+    margin-bottom: 1em;
 }
 
 
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
-    .quienes-somos {
-        width: 90%;
+@media screen and (max-width: 1200px) {
+    
+    .title {
+        font-size: 3em;
     }
 
-    .section,
-    .section3,
-    .section5 {
+    .member-description, #member-right1, #member-right2 {
         flex-direction: column;
+        width: 100%;
     }
 
-    .section2,
-    .section4 {
-        flex-direction: column-reverse;
-    }
-
-    .content {
+    .member {
         margin-bottom: 1em;
-        width: 79%;
+        width: 100%;
     }
 
-    .name1,
-    .name3,
-    .name5 {
+    .name {
         margin-top: 1.5em;
         margin-bottom: 0.5em;
-        font-size: 1.5em;
+        font-size: 1.5em; 
     }
 
-    .name2,
-    .name4 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.5em;
-
-    }
-
-
-    .info1,
-    .info3,
-    .info5 {
+    .member-text {
         margin-top: 1em;
-        width: 92%;
+        width: 100%;
         font-size: 2em;
     }
 
-    .info2,
-    .info4 {
-        margin-top: 1em;
-        width: 92%;
-        font-size: 2em;
-    }
-
-    .linkedin1,
-    .linkedin3,
-    .linkedin5 {
-        margin-top: 0.5em;
-        width: 79%;
-        word-break: break-all;
-        hyphens: auto;
-        margin-bottom: 1em;
-        font-size: 1em;
-    }
-
-    .linkedin2,
-    .linkedin4 {
-        margin-top: 0.5em;
-        width: 79%;
-        word-break: break-all;
-        hyphens: auto;
-        margin-bottom: 1em;
-        font-size: 1em;
-    }
 
 }
+
 
 @media (max-width: 480px) {
 
-    .info1,
-    .info2,
-    .info3,
-    .info4,
-    .info5 {
+    .member-text{
         font-size: 1.3em;
     }
+
+    .title {
+        font-size: 2em;
+    }
+
 }

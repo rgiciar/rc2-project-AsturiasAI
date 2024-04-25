@@ -2,16 +2,14 @@ import "../WhatDoWeDo/WhatDoWeDo.css";
 
 export const WhatDoWeDo = () => {
   return (
-    <div className="container-whatdowedo" id="seccion-what">
+    <section className="whatdowedo-container">
       <h1 className="title">QUE HACEMOS</h1>
-
-      <div className="contenido">
-        <div className="seccion1">
-          <h3 className="titulo-seccion1">
+      <div className="blue-container">
+        <div className="whatdo-text">
+          <h3 className="whatdo-title">
             Democratizar la IA en todos los estamentos de la sociedad asturiana
             de diversas formas
           </h3>
-
           <ul>
             <li>
               Divulgar la IA a través de webinars y podcasts en relación a los
@@ -23,11 +21,7 @@ export const WhatDoWeDo = () => {
               Identificar el formato que más consume nuestra población objetivo.
             </li>
           </ul>
-        </div>
-
-        <div className="seccion2">
-          <h3 className="titulo-seccion2">Formaciones personalizadas</h3>
-
+          <h3 className="whatdo-title">Formaciones personalizadas</h3>
           <ul>
             <li>
               Se harán formaciones personalizadas a diferentes grupos de interés
@@ -49,11 +43,7 @@ export const WhatDoWeDo = () => {
               eficiente.
             </li>
           </ul>
-        </div>
-
-        <div className="seccion3">
-          <h3 className="titulo-seccion3">Para estudiantes</h3>
-
+          <h3 className="whatdo-title">Para estudiantes</h3>
           <ul>
             <li>
               Darles las herramientas que las empresas realmente demandan (no es
@@ -72,6 +62,6 @@ export const WhatDoWeDo = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

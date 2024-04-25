@@ -6,20 +6,21 @@ import PabloViejo from "../../assets/images/Pablo_Viejo.jpg";
 import PabloManuel from "../../assets/images/Pablo_Manuel.jpg";
 import AndresAbad from "../../assets/images/Andres_Abad.png";
 
-
 export const AboutUs = () => {
   return (
-    <div>
-      <h1 className="title-1" id="seccion-about">
-        QUIENES SOMOS
-      </h1>
-      <div className="quienes-somos">
-        <div className="section">
-          <div className="content">
-            <img src={PatriciaAcebes} alt="Imagen 1" className="round-image1" />
-            <h2 className="name1">PATRICIA ACEBES TAMARGO</h2>
+    <section className="aboutus-container">
+      <h1 className="title">QUIENES SOMOS</h1>
+      <div className="blue-container">
+        <article className="member-description">
+          <div className="member">
+            <img
+              src={PatriciaAcebes}
+              alt="PatriciaAcebes"
+              className="round-image"
+            />
+            <h2 className="name">PATRICIA ACEBES TAMARGO</h2>
           </div>
-          <div className="info1">
+          <div className="member-text">
             <p>
               Fundadora responsable de AsturiasAi .Es economista cuantitativa,
               con formación de postgrado inteligencia artificial, blockchain e
@@ -43,15 +44,23 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/patriciaacebestamargo/"
               target="_blank"
               rel="noopener noreferrer"
-              className="linkedin1"
+              className="linkedin"
             >
-              Más sobre mí
+              Más sobre Patricia Acebes
             </a>
           </div>
-        </div>
+        </article>
         <hr />
-        <div className="section2">
-          <div className="info2">
+        <article className="member-description" id="member-right1">
+          <div className="member">
+            <img
+              src={BeatrizInfanzon}
+              alt="BeatrizInfanzon"
+              className="round-image"
+            />
+            <h2 className="name">BEATRIZ INFANZÓN</h2>
+          </div>
+          <div className="member-text">
             <p>
               Divulgadora y redactora de contenidos tecnológicos. Se ha
               especializado en tecnologías emergentes como blockchain, Web3,
@@ -61,29 +70,25 @@ export const AboutUs = () => {
               sus seguidores. Prueba de ello es Stories from the Web3, un canal
               de Youtube y una newsletter semanal, donde comparte noticias de
               Web3 y todo lo que va descubriendo en su día a día como creadora
-              de contenido.{" "}
+              de contenido.
             </p>
             <a
               href="https://www.linkedin.com/in/beatrizinfanzon/"
               target="_blank"
               rel="noopener noreferrer"
-              className="linkedin2"
+              className="linkedin"
             >
-              Más sobre mí
+              Más sobre Beatriz Infanzón
             </a>
           </div>
-          <div className="content">
-            <img src={BeatrizInfanzon} alt="Imagen 2" className="round-image2" />
-            <h2 className="name2">BEATRIZ INFANZÓN</h2>
-          </div>
-        </div>
+        </article>
         <hr />
-        <div className="section3">
-          <div className="content">
-            <img src={PabloViejo} alt="Imagen 3" className="round-image3" />
-            <h2 className="name3">PABLO VIEJO</h2>
+        <article className="member-description">
+          <div className="member">
+            <img src={PabloViejo} alt="PabloViejo" className="round-image" />
+            <h2 className="name">PABLO VIEJO</h2>
           </div>
-          <div className="info3">
+          <div className="member-text">
             <p>
               Fundador y CEO de Bettermaps.AI, se especializa en el desarrollo
               de proyectos con inteligencia artificial (IA) y tecnologías
@@ -110,15 +115,19 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/pablo-viejo/"
               target="_blank"
               rel="noopener noreferrer"
-              className="linkedin3"
+              className="linkedin"
             >
-              Más sobre mí
+              Más sobre Pablo Viejo
             </a>
           </div>
-        </div>
+        </article>
         <hr />
-        <div className="section4">
-          <div className="info4">
+        <article className="member-description" id="member-right2">
+          <div className="member">
+            <img src={PabloManuel} alt="PabloManuel" className="round-image" />
+            <h2 className="name">PABLO MANUEL GARCIA CORZO</h2>
+          </div>
+          <div className="member-text">
             <p>
               Se formó como físico en la Universidad Complutense de Madrid. A lo
               largo de su carrera ha ido pasando por posiciones muy diversas, ha
@@ -138,23 +147,19 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/beatrizinfanzon/"
               target="_blank"
               rel="noopener noreferrer"
-              className="linkedin4"
+              className="linkedin"
             >
-              Más sobre mí
+              Más sobre Pablo Manuel García
             </a>
           </div>
-          <div className="content">
-            <img src={PabloManuel} alt="Imagen 4" className="round-image4" />
-            <h2 className="name4">PABLO MANUEL GARCIA CORZO</h2>
-          </div>
-        </div>
+        </article>
         <hr />
-        <div className="section5">
-          <div className="content">
-            <img src={AndresAbad} alt="Imagen 5" className="round-image5" />
-            <h2 className="name5">ANDRES ABAD RODRIGUEZ</h2>
+        <article className="member-description">
+          <div className="member">
+            <img src={AndresAbad} alt="AndresAbad" className="round-image" />
+            <h2 className="name">ANDRES ABAD RODRIGUEZ</h2>
           </div>
-          <div className="info5">
+          <div className="member-text">
             <p>
               Ingeniero informático que ha desarrollado la mayor parte de su
               carrera liderando proyectos y servicios de varias áreas en
@@ -167,13 +172,13 @@ export const AboutUs = () => {
               href="https://www.linkedin.com/in/pablo-viejo/"
               target="_blank"
               rel="noopener noreferrer"
-              className="linkedin5"
+              className="linkedin"
             >
-              Más sobre mí
+              Más sobre Andrés Abad
             </a>
           </div>
-        </div>
+        </article>
       </div>
-    </div>
+    </section>
   );
 };
