@@ -10,3 +10,10 @@
     text-align: center;
     padding: 2em 0 1em 0;
 }
+
+.newsLetter iframe {
+    border: none;
+    width: 350px;
+    border-radius: 10px;
+  }
+

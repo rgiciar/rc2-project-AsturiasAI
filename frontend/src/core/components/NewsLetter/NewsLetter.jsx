@@ -7,12 +7,12 @@ export const NewsLetter = () => {
                 Subscribete a nuestro NewsLetter
             </h2>
             <iframe
-
                 src="https://oliversanchezcasiano.substack.com/embed"
                 width="400"
                 height="150"
-                frameborder="no"
-                scrolling="no">
+                // frameborder="no"
+                // scrolling="no"
+                >
             </iframe>
         </div>
     );
