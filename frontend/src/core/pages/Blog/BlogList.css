@@ -85,6 +85,6 @@
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   position: absolute;
-  bottom: 0.3rem;
-  left: 0.3rem;
+  bottom: 0rem;
+  left: 0rem;
 }
