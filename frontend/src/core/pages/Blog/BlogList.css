@@ -34,7 +34,8 @@
 }
 
 .post-header {
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
+  max-height: 9rem;
 }
 
 .post-title {
@@ -58,8 +59,8 @@
 }
 
 .post-description {
-  padding: 1.5rem;
-  padding-top: 0;
+  padding: 0 1.5rem;
+  max-height: 3.5rem;
 }
 
 .post-description p{
