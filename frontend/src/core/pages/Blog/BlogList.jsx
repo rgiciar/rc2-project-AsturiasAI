@@ -32,13 +32,13 @@ const BlogList = () => {
                 <img
                   src={post.fields.blogImage.fields.file.url}
                   title=""
-                  alt={post.fields.blogTitle}
+                  alt={post.fields.blogTittle}
                   width="325"
                   height="150"
                 />
                 <header className="post-header">
                   <h2 className="post-title pt-3">
-                    {post.fields.blogTitle}
+                    {post.fields.blogTittle}
                   </h2>
                   <p className="post-datos">
                     Por:{" "}
