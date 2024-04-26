@@ -4,11 +4,8 @@ import { Link } from "react-router-dom";
 import "./BlogList.css";
 
 const BlogList = () => {
-  const [blogPosts, setBlogPosts] = useState([]);
-  const client = createClient({
-    space: "mrjvfntti08f",
-    accessToken: "V99WWsJa_DcxpIFFE1WNoZUD4gcF3F7ZWSr-hmSO7jw",
-  });
+  const [blogPosts, setBlogPosts] = useState([])
+  const client = createClient({ space:  import.meta.env.VITE_CONTENTFUL_SPACE_NAME , accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN })
 
   useEffect(() => {
     const getAllEntries = async () => {
