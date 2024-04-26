@@ -82,9 +82,12 @@
   font-size: 1.2rem;
   margin: 1.5rem;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   position: absolute;
   bottom: 0rem;
   left: 0rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-read-more:hover {
+  background-color: var(--blueHover);
 }
