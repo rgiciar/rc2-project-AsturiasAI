@@ -1,62 +1,83 @@
+.blog-list-container {
+  width: 100vw;
+  padding: 1rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-subhead {
+  width: 100%;
+  color: var(--white);
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.posts-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  width: 32.5rem;
+  height: 33rem;
+  background-color: var(--whiteOpacity);
+  margin: 1rem;
+  text-align: left;
+}
+
+.post img {
+  object-fit: cover;
+}
+
+.post-header {
+  padding: 1.5rem;
+}
+
+.post-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-datos {
+  font-size: 1.2rem;
+}
+
+.post-author {
+  font-size: 1.5rem;
+  color: var(--darkBlue);
+  font-family: Montserrat-Bold, sans-serif;
+}
+
+.post-date {
+  font-size: 1.5rem;
+  color: var(--darkBlue);
+}
+
+.post-description {
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.post-description p{
+  color: var(--darkBlue);
+  font-size: 1.2rem;
+}
+
 .button-read-more {
-    background-color: #4CAF50; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .post-header {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 10px;
-    margin-left: 50%;
-    border: 1px solid #000;
-    background-color: #D9D9D9;
-    box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.75);
-    
-  }
-
- .content-img {
-  background-color: red;
- }
- .pure-g {
-  color: #2D668E;
-  font-size: 15px;
-  
-    
- }
- 
- .post-meta {
-  
-  margin-top: 50px;
- }
- 
-  .post-author {
-    font-size: 15px;
-    color: #757575;
-    margin-top: 8px;
-  }
-
-  .post-description {
-    color: #757575;
-    text-align: center;
-    
-  }
-  .content-subhead{
-    color: aliceblue;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-  }
-
- 
+  background-color: var(--blue);
+  border: none;
+  color: var(--darkBlue);
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}

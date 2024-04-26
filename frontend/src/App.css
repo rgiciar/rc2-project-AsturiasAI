@@ -21,6 +21,7 @@ body {
 :root {
   --black: black;
   --white: white;
+  --whiteOpacity: rgba(255, 255, 255, 0.9);
   --darkBlue: #10254c;
   --darkBlueOpacity: rgba(16, 37, 76, 0.5);
   --lightBlue: #66e8f2;
@@ -31,4 +32,9 @@ body {
 @font-face {
   font-family: 'Montserrat-Regular';
   src: local('Montserrat-Regular'), url('./core/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: local('Montserrat-Bold'), url('./core/assets/fonts/Montserrat-Bold.ttf') format('truetype');
 }
