@@ -27,6 +27,7 @@
   background-color: var(--whiteOpacity);
   margin: 1rem;
   text-align: left;
+  position: relative;
 }
 
 .post img {
@@ -83,4 +84,7 @@
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.3rem;
 }
