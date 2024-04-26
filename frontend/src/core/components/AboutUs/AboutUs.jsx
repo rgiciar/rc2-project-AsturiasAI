@@ -9,7 +9,7 @@ import AndresAbad from "../../assets/images/Andres_Abad.png";
 export const AboutUs = () => {
   return (
     <section className="aboutus-container">
-      <h1 className="title">QUIENES SOMOS</h1>
+      <h1 className="title" id="seccion-about">QUIENES SOMOS</h1>
       <div className="blue-container">
         <article className="member-description">
           <div className="member">
