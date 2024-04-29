@@ -169,7 +169,7 @@ export const AboutUs = () => {
               Business School con su trabajo en
             </p>
             <a
-              href="https://www.linkedin.com/in/pablo-viejo/"
+              href="https://www.linkedin.com/in/andresabad/"
               target="_blank"
               rel="noopener noreferrer"
               className="linkedin"
