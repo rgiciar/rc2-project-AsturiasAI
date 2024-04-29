@@ -15,10 +15,7 @@ export const Home = () => {
       <AboutUs />
       <WhatDoWeDo />
       <NewsLetter />
-<<<<<<< HEAD
       <Button />
-=======
->>>>>>> b622308aba45b881a6f06510409f0d38c1ab90df
     </main>
   )
 }
