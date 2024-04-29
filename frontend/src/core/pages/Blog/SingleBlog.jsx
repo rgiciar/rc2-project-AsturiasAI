@@ -25,7 +25,7 @@ const SingleBlog = () => {
       }
     };
     getEntryById();
-  }, [client, id]);
+  }, [id]);
 
   return (
     <div id="layout" className="pure-g">

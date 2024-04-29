@@ -18,7 +18,7 @@ const BlogList = () => {
       }
     };
     getAllEntries();
-  }, [client]);
+  }, []);
 
   return (
       <div className="blog-list-container">
