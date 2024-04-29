@@ -10,7 +10,7 @@ import { Button } from "../../components/Button/Button";
 export const Home = () => {
   return (
     <main className="home">
-      <div className="welcomeMenssage">Bienvinidxs a AsturiasAi by SpainAi</div>
+      <div className="welcomeMenssage">Bienvenidxs a AsturiasAi by SpainAi</div>
       <RedMap />
       <AboutUs />
       <WhatDoWeDo />

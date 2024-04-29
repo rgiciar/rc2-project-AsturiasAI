@@ -147,7 +147,7 @@ export const AboutUs = () => {
               Inteligencia Artificial.
             </p>
             <a
-              href="https://www.linkedin.com/in/beatrizinfanzon/"
+              href="https://www.linkedin.com/in/pablomgc/"
               target="_blank"
               rel="noopener noreferrer"
               className="linkedin"
