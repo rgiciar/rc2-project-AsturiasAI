@@ -83,7 +83,7 @@ hr {
     color: var(--white);
 }
 
-#member-right1, #member-right2 {
+#member-right1, #member-right2, #member-right3 {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -99,7 +99,7 @@ hr {
         font-size: 3em;
     }
 
-    .member-description, #member-right1, #member-right2 {
+    .member-description, #member-right1, #member-right2, #member-right3{
         flex-direction: column;
         width: 100%;
     }

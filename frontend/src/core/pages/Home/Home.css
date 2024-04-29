@@ -1,5 +1,28 @@
 .home {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.welcomeMenssage {
+    color: var(--white);
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem 0;
+    opacity: 0;
+    animation: letra-aparece 1.5s ease-in-out forwards;
+
+}
+
+
+@keyframes letra-aparece {
+  from {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
