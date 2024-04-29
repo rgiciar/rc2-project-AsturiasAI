@@ -15,9 +15,10 @@
 }
 
 .posts-container {
-  width: 100%;
+  max-width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .post {
@@ -26,6 +27,7 @@
   background-color: var(--whiteOpacity);
   margin: 1rem;
   text-align: left;
+  position: relative;
 }
 
 .post img {
@@ -33,7 +35,8 @@
 }
 
 .post-header {
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
+  max-height: 9rem;
 }
 
 .post-title {
@@ -57,8 +60,9 @@
 }
 
 .post-description {
-  padding: 1.5rem;
-  padding-top: 0;
+  padding: 0 1.5rem;
+  max-height: 3.4rem;
+  overflow: hidden;
 }
 
 .post-description p{
@@ -78,6 +82,12 @@
   font-size: 1.2rem;
   margin: 1.5rem;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-read-more:hover {
+  background-color: var(--blueHover);
 }

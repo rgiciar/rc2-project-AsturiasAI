@@ -4,11 +4,8 @@ import { Link } from "react-router-dom";
 import "./BlogList.css";
 
 const BlogList = () => {
-  const [blogPosts, setBlogPosts] = useState([]);
-  const client = createClient({
-    space: "mrjvfntti08f",
-    accessToken: "V99WWsJa_DcxpIFFE1WNoZUD4gcF3F7ZWSr-hmSO7jw",
-  });
+  const [blogPosts, setBlogPosts] = useState([])
+  const client = createClient({ space:  import.meta.env.VITE_CONTENTFUL_SPACE_NAME , accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN })
 
   useEffect(() => {
     const getAllEntries = async () => {
@@ -32,13 +29,13 @@ const BlogList = () => {
                 <img
                   src={post.fields.blogImage.fields.file.url}
                   title=""
-                  alt={post.fields.title}
+                  alt={post.fields.blogTittle}
                   width="325"
                   height="150"
                 />
                 <header className="post-header">
                   <h2 className="post-title pt-3">
-                    Titulo del post{post.fields.title}
+                    {post.fields.blogTittle}
                   </h2>
                   <p className="post-datos">
                     Por:{" "}

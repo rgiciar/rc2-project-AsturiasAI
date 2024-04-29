@@ -5,6 +5,10 @@
   width: 70%;
 }
 
+.succesfull-send{
+  color: white;
+}
+
 .form-contact {
   display: flex;
   flex-direction: column;

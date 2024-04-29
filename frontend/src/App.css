@@ -26,6 +26,7 @@ body {
   --darkBlueOpacity: rgba(16, 37, 76, 0.5);
   --lightBlue: #66e8f2;
   --blue: rgba(127, 200, 255, 0.3);
+  --blueHover: rgb(138, 192, 234);
   --myFont: Montserrat-Regular, Helvetica, sans-serif;
 }
 

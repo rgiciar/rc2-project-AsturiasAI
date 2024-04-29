@@ -10,6 +10,7 @@
     font-size: 1.5rem;
     margin: 2rem 0 0 3rem;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
@@ -29,7 +30,6 @@
 .detail-section {
     width: 100%;
     padding: 3rem;
-
     display: flex;
     justify-content: space-between;
 }
@@ -40,12 +40,18 @@
 
 .detail-text {
     width: 60%;
-    padding: 2rem;
+    padding: 0 2rem;
+    color: var(--white);
+    text-align: justify;
 }
 
 .detail-section img {
     object-fit: cover;
     margin-bottom: 1rem;
+}
+
+.post-detail-datos, .post-detail-datos .post-author, .post-detail-datos .post-date {
+    color: var(--white)
 }
 
 @media only screen and (max-width: 1000px) {
@@ -68,6 +74,6 @@
 
     .detail-text {
         width: 100%;
-
+        padding: 2rem 0;
     }
 }
