@@ -38,7 +38,7 @@ export const FormContact = () => {
   return (
     <section className="contact-form-container">
       {isSubmitSuccessful ? (
-        <h2 className="succesfull-send">Enviado Correctamente! 📩 </h2>
+        <h2 className="succesfull-send">Enviado Correctamente! 📩</h2>
       ) : (
         <form className="form-contact" onSubmit={handleSubmit(submit)}>
           <div className="email-container">

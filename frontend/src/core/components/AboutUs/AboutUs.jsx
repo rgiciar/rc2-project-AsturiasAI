@@ -128,7 +128,7 @@ export const AboutUs = () => {
         <article className="member-description" id="member-right2">
           <div className="member">
             <img src={PabloManuel} alt="PabloManuel" className="round-image" />
-            <h2 className="name">PABLO MANUEL GARCÍA</h2>
+            <h2 className="name">PABLO MANUEL GARCÍA CORZO</h2>
           </div>
           <div className="member-text">
             <p>
