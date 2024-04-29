@@ -86,10 +86,10 @@ const BlogList = () => {
       {!allEntriesLoaded && (
         <button
           onClick={handleLoadMore}
-          className="load-more-button"
+          className="back-button"
           disabled={loading}
         >
-          {loading ? "Cargar Más" : "Cargando..."}
+          {loading ? "" : "Cargar Más"}
         </button>
       )}
     </div>
