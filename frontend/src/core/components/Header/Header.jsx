@@ -10,6 +10,10 @@ export const Header = () => {
     setMenuAbierto(!menuAbierto);
   };
 
+  const cerrarMenu = () => {
+    setMenuAbierto(false);
+  };
+
   return (
     <header className="header-container">
       <div className="logo-container">
@@ -26,22 +30,22 @@ export const Header = () => {
 
       <nav className={`nav ${menuAbierto ? "visible" : ""}`}>
         <ul className="nav-list">
-          <li>
+          <li onClick={cerrarMenu}>
             <Link smooth to="/#seccion-about">
               Quienes somos
             </Link>
           </li>
-          <li>
+          <li onClick={cerrarMenu}>
             <Link smooth to="/#seccion-what">
               Que hacemos 
             </Link>
           </li>
-          <li>
+          <li onClick={cerrarMenu}>
             <Link smooth to="/blogList">
               Blog
             </Link>
           </li>
-          <li>
+          <li onClick={cerrarMenu}>
             <Link smooth to="/contact">
               Contacto
             </Link>
