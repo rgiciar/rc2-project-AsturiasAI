@@ -5,11 +5,14 @@ import BeatrizInfanzon from "../../assets/images/Beatriz_Infanzon.png";
 import PabloViejo from "../../assets/images/Pablo_Viejo.jpg";
 import PabloManuel from "../../assets/images/Pablo_Manuel.jpg";
 import AndresAbad from "../../assets/images/Andres_Abad.png";
+import DiegoFernandez from "../../assets/images/Diego_Fernandez.jpg";
 
 export const AboutUs = () => {
   return (
     <section className="aboutus-container">
-      <h1 className="title" id="seccion-about">QUIENES SOMOS</h1>
+      <h1 className="title" id="seccion-about">
+        QUIENES SOMOS
+      </h1>
       <div className="blue-container">
         <article className="member-description">
           <div className="member">
@@ -125,7 +128,7 @@ export const AboutUs = () => {
         <article className="member-description" id="member-right2">
           <div className="member">
             <img src={PabloManuel} alt="PabloManuel" className="round-image" />
-            <h2 className="name">PABLO MANUEL GARCIA CORZO</h2>
+            <h2 className="name">PABLO MANUEL GARCÍA</h2>
           </div>
           <div className="member-text">
             <p>
@@ -166,7 +169,7 @@ export const AboutUs = () => {
               organismos internacionales como el CERN, OMS, OMPI y UNICC. Tras
               un breve paso por la Wella Company, compagina la enseñanza de la
               disciplina de transformación digital para los MBA de la IFM
-              Business School con su trabajo en
+              Business School con su trabajo en IFM Business School.
             </p>
             <a
               href="https://www.linkedin.com/in/andresabad/"
@@ -175,6 +178,54 @@ export const AboutUs = () => {
               className="linkedin"
             >
               Más sobre Andrés Abad
+            </a>
+          </div>
+        </article>
+        <hr />
+        <article className="member-description" id="member-right3">
+          <div className="member">
+            <img
+              src={DiegoFernandez}
+              alt="DiegoFernandez"
+              className="round-image"
+            />
+            <h2 className="name">DIEGO FERNÁNDEZ</h2>
+          </div>
+          <div className="member-text">
+            <p>
+              Diego Fernández Allende es un arquitecto de software especializado
+              en soluciones Azure, con más de dos décadas de experiencia en la
+              gestión e implementación de infraestructuras tecnológicas
+              avanzadas. Su trabajo en empresas como Willis Towers Watson Iberia
+              y Reale Seguros Generales ha demostrado su habilidad para liderar
+              proyectos de transformación digital mediante el uso de Microsoft
+              Azure, optimizando procesos y mejorando la eficiencia operativa
+              desde 2019 hasta la actualidad. A través de su carrera, Diego ha
+              sido pionero en la implementación de plataformas Low Code y
+              aplicaciones en Power Platform y Power Apps, facilitando procesos
+              automatizados y supervisión eficiente en entornos corporativos. Ha
+              liderado desarrollos en .NET y Azure, estableciendo soluciones
+              híbridas que integran arquitecturas locales y en la nube. Formado
+              como Ingeniero Técnico en Informática de Gestión y con un máster
+              en Inteligencia Artificial y Big Data, Diego posee numerosas
+              certificaciones de Microsoft, incluyendo Azure Architect
+              Technologies (AZ-303) y Azure Architect Design (AZ-304), que
+              certifican su profundo conocimiento en arquitectura de soluciones
+              en la nube. Con un enfoque metodológico basado en prácticas Agile
+              y herramientas de DevOps desde principios de su carrera en 2005,
+              Diego se centra en la mejora continua y la innovación. Se
+              distingue por su capacidad para diseñar e implementar
+              arquitecturas tecnológicas que no solo responden a las necesidades
+              actuales de las empresas, sino que también proyectan escalabilidad
+              y adaptabilidad futura.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/diego-fern%C3%A1ndez-allende-70975345/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin"
+            >
+              Más sobre Diego Fernández
             </a>
           </div>
         </article>
