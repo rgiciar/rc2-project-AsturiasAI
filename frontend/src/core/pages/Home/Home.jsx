@@ -2,6 +2,7 @@ import { RedMap } from "../../components/RedMap/RedMap";
 import { AboutUs } from "../../components/AboutUs/AboutUs";
 import { WhatDoWeDo } from "../../components/WhatDoWeDo/WhatDoWeDo";
 import { NewsLetter } from "../../components/NewsLetter/NewsLetter";
+import { Button } from "../../components/Button/Button";
 
 
 export const Home = () => {
@@ -11,7 +12,7 @@ export const Home = () => {
       <AboutUs />
       <WhatDoWeDo />
       <NewsLetter />
-      
+      <Button />
     </main>
   )
 }
