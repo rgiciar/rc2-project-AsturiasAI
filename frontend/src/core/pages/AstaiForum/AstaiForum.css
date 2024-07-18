@@ -1,4 +1,13 @@
 .logoAstai {
     width: 18rem;
     height: auto;
+    margin-right: 5rem;
+}
+
+.logoAstaiContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

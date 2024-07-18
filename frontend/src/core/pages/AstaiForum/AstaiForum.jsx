@@ -9,7 +9,7 @@ export const AstaiForum = () => {
       </h1>
       <div className="blue-container">
         <article className="member-description">
-          <div className="member">
+          <div className="logoAstaiContainer">
             <img src={LogoAstai} alt="AstaiForum" className="logoAstai" />
           </div>
           <div className="member-text">

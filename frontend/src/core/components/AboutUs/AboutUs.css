@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    margin: 0 auto;
+    margin: 3rem auto;
     background-color: var(--blue);
     padding: 5%;
 }
