@@ -41,6 +41,11 @@ export const Header = () => {
             </Link>
           </li>
           <li onClick={cerrarMenu}>
+            <Link smooth to="/astaiForum">
+              Astai Forum 
+            </Link>
+          </li>
+          <li onClick={cerrarMenu}>
             <Link smooth to="/blogList">
               Blog
             </Link>
